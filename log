@@ -1,0 +1,1723 @@
+This model has 47412438 trainable parameters
+Loaded latest model checkpoint
+Loading the data ...
+
+***** Begin training *****
+Dataset --> RainCloud
+Model --> BiSeNet
+Crop Height --> 256
+Crop Width --> 256
+Num Epochs --> 120
+Batch Size --> 8
+Num Classes --> 2
+Data Augmentation:
+	Vertical Flip --> False
+	Horizontal Flip --> False
+	Brightness Alteration --> None
+	Rotation --> None
+
+[2019-05-09 13:47:40] Epoch = 80 Count = 40 Current_Loss = 0.0198 Time = 4.34
+[2019-05-09 13:47:41] Epoch = 80 Count = 80 Current_Loss = 0.0128 Time = 1.15
+[2019-05-09 13:47:42] Epoch = 80 Count = 120 Current_Loss = 0.0240 Time = 1.14
+[2019-05-09 13:47:43] Epoch = 80 Count = 160 Current_Loss = 0.0145 Time = 1.14
+[2019-05-09 13:47:44] Epoch = 80 Count = 200 Current_Loss = 0.0237 Time = 1.15
+[2019-05-09 13:47:46] Epoch = 80 Count = 240 Current_Loss = 0.0187 Time = 1.14
+[2019-05-09 13:47:47] Epoch = 80 Count = 280 Current_Loss = 0.0209 Time = 1.15
+[2019-05-09 13:47:48] Epoch = 80 Count = 320 Current_Loss = 0.0166 Time = 1.15
+[2019-05-09 13:47:49] Epoch = 80 Count = 360 Current_Loss = 0.0164 Time = 1.14
+[2019-05-09 13:47:50] Epoch = 80 Count = 400 Current_Loss = 0.0177 Time = 1.14
+[2019-05-09 13:47:51] Epoch = 80 Count = 440 Current_Loss = 0.0197 Time = 1.14
+[2019-05-09 13:47:52] Epoch = 80 Count = 480 Current_Loss = 0.0205 Time = 1.14
+[2019-05-09 13:47:54] Epoch = 80 Count = 520 Current_Loss = 0.0141 Time = 1.14
+[2019-05-09 13:47:55] Epoch = 80 Count = 560 Current_Loss = 0.0204 Time = 1.14
+[2019-05-09 13:47:56] Epoch = 80 Count = 600 Current_Loss = 0.0161 Time = 1.14
+[2019-05-09 13:47:57] Epoch = 80 Count = 640 Current_Loss = 0.0165 Time = 1.14
+[2019-05-09 13:47:58] Epoch = 80 Count = 680 Current_Loss = 0.0196 Time = 1.15
+[2019-05-09 13:47:59] Epoch = 80 Count = 720 Current_Loss = 0.0227 Time = 1.14
+[2019-05-09 13:48:00] Epoch = 80 Count = 760 Current_Loss = 0.0214 Time = 1.15
+[2019-05-09 13:48:02] Epoch = 80 Count = 800 Current_Loss = 0.0184 Time = 1.14
+[2019-05-09 13:48:03] Epoch = 80 Count = 840 Current_Loss = 0.0172 Time = 1.15
+[2019-05-09 13:48:04] Epoch = 80 Count = 880 Current_Loss = 0.0200 Time = 1.15
+[2019-05-09 13:48:05] Epoch = 80 Count = 920 Current_Loss = 0.0231 Time = 1.14
+[2019-05-09 13:48:06] Epoch = 80 Count = 960 Current_Loss = 0.0238 Time = 1.15
+[2019-05-09 13:48:07] Epoch = 80 Count = 1000 Current_Loss = 0.0173 Time = 1.14
+[2019-05-09 13:48:08] Epoch = 80 Count = 1040 Current_Loss = 0.0156 Time = 1.15
+[2019-05-09 13:48:10] Epoch = 80 Count = 1080 Current_Loss = 0.0139 Time = 1.15
+[2019-05-09 13:48:11] Epoch = 80 Count = 1120 Current_Loss = 0.0189 Time = 1.15
+[2019-05-09 13:48:12] Epoch = 80 Count = 1160 Current_Loss = 0.0177 Time = 1.15
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0080 = 0.986516
+Average per class validation accuracies for epoch # 0080:
+Background = 0.993365
+RainCloud = 0.853966
+Validation precision =  0.9870841503618598
+Validation recall =  0.9865156991141183
+Validation F1 score =  0.9862176199983818
+Validation IoU score =  0.8256340571783578
+[2019-05-09 13:48:29] Remaining training time = 0 hours 35 minutes 1 seconds
+
+[2019-05-09 13:48:31] Epoch = 81 Count = 40 Current_Loss = 0.0183 Time = 1.15
+[2019-05-09 13:48:32] Epoch = 81 Count = 80 Current_Loss = 0.0220 Time = 1.15
+[2019-05-09 13:48:33] Epoch = 81 Count = 120 Current_Loss = 0.0237 Time = 1.14
+[2019-05-09 13:48:34] Epoch = 81 Count = 160 Current_Loss = 0.0242 Time = 1.15
+[2019-05-09 13:48:35] Epoch = 81 Count = 200 Current_Loss = 0.0167 Time = 1.15
+[2019-05-09 13:48:36] Epoch = 81 Count = 240 Current_Loss = 0.0189 Time = 1.15
+[2019-05-09 13:48:38] Epoch = 81 Count = 280 Current_Loss = 0.0189 Time = 1.15
+[2019-05-09 13:48:39] Epoch = 81 Count = 320 Current_Loss = 0.0168 Time = 1.15
+[2019-05-09 13:48:40] Epoch = 81 Count = 360 Current_Loss = 0.0181 Time = 1.15
+[2019-05-09 13:48:41] Epoch = 81 Count = 400 Current_Loss = 0.0277 Time = 1.15
+[2019-05-09 13:48:42] Epoch = 81 Count = 440 Current_Loss = 0.0211 Time = 1.15
+[2019-05-09 13:48:43] Epoch = 81 Count = 480 Current_Loss = 0.0207 Time = 1.15
+[2019-05-09 13:48:45] Epoch = 81 Count = 520 Current_Loss = 0.0164 Time = 1.15
+[2019-05-09 13:48:46] Epoch = 81 Count = 560 Current_Loss = 0.0166 Time = 1.15
+[2019-05-09 13:48:47] Epoch = 81 Count = 600 Current_Loss = 0.0181 Time = 1.15
+[2019-05-09 13:48:48] Epoch = 81 Count = 640 Current_Loss = 0.0231 Time = 1.15
+[2019-05-09 13:48:49] Epoch = 81 Count = 680 Current_Loss = 0.0162 Time = 1.14
+[2019-05-09 13:48:50] Epoch = 81 Count = 720 Current_Loss = 0.0216 Time = 1.15
+[2019-05-09 13:48:51] Epoch = 81 Count = 760 Current_Loss = 0.0224 Time = 1.16
+[2019-05-09 13:48:53] Epoch = 81 Count = 800 Current_Loss = 0.0179 Time = 1.15
+[2019-05-09 13:48:54] Epoch = 81 Count = 840 Current_Loss = 0.0197 Time = 1.15
+[2019-05-09 13:48:55] Epoch = 81 Count = 880 Current_Loss = 0.0258 Time = 1.15
+[2019-05-09 13:48:56] Epoch = 81 Count = 920 Current_Loss = 0.0203 Time = 1.15
+[2019-05-09 13:48:57] Epoch = 81 Count = 960 Current_Loss = 0.0105 Time = 1.15
+[2019-05-09 13:48:58] Epoch = 81 Count = 1000 Current_Loss = 0.0174 Time = 1.15
+[2019-05-09 13:48:59] Epoch = 81 Count = 1040 Current_Loss = 0.0162 Time = 1.15
+[2019-05-09 13:49:01] Epoch = 81 Count = 1080 Current_Loss = 0.0122 Time = 1.15
+[2019-05-09 13:49:02] Epoch = 81 Count = 1120 Current_Loss = 0.0142 Time = 1.15
+[2019-05-09 13:49:03] Epoch = 81 Count = 1160 Current_Loss = 0.0215 Time = 1.15
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0081 = 0.986883
+Average per class validation accuracies for epoch # 0081:
+Background = 0.994743
+RainCloud = 0.829027
+Validation precision =  0.9878594492315776
+Validation recall =  0.9868833269391741
+Validation F1 score =  0.9868768763091993
+Validation IoU score =  0.8285682840029276
+[2019-05-09 13:49:19] Remaining training time = 0 hours 31 minutes 6 seconds
+
+[2019-05-09 13:49:20] Epoch = 82 Count = 40 Current_Loss = 0.0129 Time = 1.16
+[2019-05-09 13:49:21] Epoch = 82 Count = 80 Current_Loss = 0.0193 Time = 1.15
+[2019-05-09 13:49:22] Epoch = 82 Count = 120 Current_Loss = 0.0173 Time = 1.15
+[2019-05-09 13:49:24] Epoch = 82 Count = 160 Current_Loss = 0.0187 Time = 1.15
+[2019-05-09 13:49:25] Epoch = 82 Count = 200 Current_Loss = 0.0250 Time = 1.15
+[2019-05-09 13:49:26] Epoch = 82 Count = 240 Current_Loss = 0.0238 Time = 1.15
+[2019-05-09 13:49:27] Epoch = 82 Count = 280 Current_Loss = 0.0143 Time = 1.15
+[2019-05-09 13:49:28] Epoch = 82 Count = 320 Current_Loss = 0.0118 Time = 1.15
+[2019-05-09 13:49:29] Epoch = 82 Count = 360 Current_Loss = 0.0165 Time = 1.15
+[2019-05-09 13:49:30] Epoch = 82 Count = 400 Current_Loss = 0.0123 Time = 1.15
+[2019-05-09 13:49:32] Epoch = 82 Count = 440 Current_Loss = 0.0182 Time = 1.15
+[2019-05-09 13:49:33] Epoch = 82 Count = 480 Current_Loss = 0.0178 Time = 1.15
+[2019-05-09 13:49:34] Epoch = 82 Count = 520 Current_Loss = 0.0197 Time = 1.15
+[2019-05-09 13:49:35] Epoch = 82 Count = 560 Current_Loss = 0.0221 Time = 1.15
+[2019-05-09 13:49:36] Epoch = 82 Count = 600 Current_Loss = 0.0168 Time = 1.15
+[2019-05-09 13:49:37] Epoch = 82 Count = 640 Current_Loss = 0.0122 Time = 1.15
+[2019-05-09 13:49:38] Epoch = 82 Count = 680 Current_Loss = 0.0178 Time = 1.15
+[2019-05-09 13:49:40] Epoch = 82 Count = 720 Current_Loss = 0.0162 Time = 1.15
+[2019-05-09 13:49:41] Epoch = 82 Count = 760 Current_Loss = 0.0138 Time = 1.15
+[2019-05-09 13:49:42] Epoch = 82 Count = 800 Current_Loss = 0.0225 Time = 1.15
+[2019-05-09 13:49:43] Epoch = 82 Count = 840 Current_Loss = 0.0209 Time = 1.15
+[2019-05-09 13:49:44] Epoch = 82 Count = 880 Current_Loss = 0.0211 Time = 1.15
+[2019-05-09 13:49:45] Epoch = 82 Count = 920 Current_Loss = 0.0218 Time = 1.15
+[2019-05-09 13:49:47] Epoch = 82 Count = 960 Current_Loss = 0.0215 Time = 1.15
+[2019-05-09 13:49:48] Epoch = 82 Count = 1000 Current_Loss = 0.0135 Time = 1.15
+[2019-05-09 13:49:49] Epoch = 82 Count = 1040 Current_Loss = 0.0225 Time = 1.15
+[2019-05-09 13:49:50] Epoch = 82 Count = 1080 Current_Loss = 0.0258 Time = 1.15
+[2019-05-09 13:49:51] Epoch = 82 Count = 1120 Current_Loss = 0.0242 Time = 1.15
+[2019-05-09 13:49:52] Epoch = 82 Count = 1160 Current_Loss = 0.0173 Time = 1.15
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0082 = 0.986789
+Average per class validation accuracies for epoch # 0082:
+Background = 0.992861
+RainCloud = 0.870557
+Validation precision =  0.987144166018085
+Validation recall =  0.9867885044642857
+Validation F1 score =  0.9863741595780502
+Validation IoU score =  0.828697496704017
+[2019-05-09 13:50:08] Remaining training time = 0 hours 30 minutes 19 seconds
+
+[2019-05-09 13:50:10] Epoch = 83 Count = 40 Current_Loss = 0.0241 Time = 1.16
+[2019-05-09 13:50:11] Epoch = 83 Count = 80 Current_Loss = 0.0202 Time = 1.15
+[2019-05-09 13:50:12] Epoch = 83 Count = 120 Current_Loss = 0.0148 Time = 1.15
+[2019-05-09 13:50:13] Epoch = 83 Count = 160 Current_Loss = 0.0231 Time = 1.15
+[2019-05-09 13:50:14] Epoch = 83 Count = 200 Current_Loss = 0.0187 Time = 1.15
+[2019-05-09 13:50:15] Epoch = 83 Count = 240 Current_Loss = 0.0153 Time = 1.15
+[2019-05-09 13:50:16] Epoch = 83 Count = 280 Current_Loss = 0.0156 Time = 1.15
+[2019-05-09 13:50:18] Epoch = 83 Count = 320 Current_Loss = 0.0158 Time = 1.15
+[2019-05-09 13:50:19] Epoch = 83 Count = 360 Current_Loss = 0.0156 Time = 1.15
+[2019-05-09 13:50:20] Epoch = 83 Count = 400 Current_Loss = 0.0150 Time = 1.15
+[2019-05-09 13:50:21] Epoch = 83 Count = 440 Current_Loss = 0.0175 Time = 1.15
+[2019-05-09 13:50:22] Epoch = 83 Count = 480 Current_Loss = 0.0190 Time = 1.15
+[2019-05-09 13:50:23] Epoch = 83 Count = 520 Current_Loss = 0.0145 Time = 1.15
+[2019-05-09 13:50:24] Epoch = 83 Count = 560 Current_Loss = 0.0252 Time = 1.15
+[2019-05-09 13:50:26] Epoch = 83 Count = 600 Current_Loss = 0.0166 Time = 1.15
+[2019-05-09 13:50:27] Epoch = 83 Count = 640 Current_Loss = 0.0191 Time = 1.16
+[2019-05-09 13:50:28] Epoch = 83 Count = 680 Current_Loss = 0.0186 Time = 1.15
+[2019-05-09 13:50:29] Epoch = 83 Count = 720 Current_Loss = 0.0150 Time = 1.16
+[2019-05-09 13:50:30] Epoch = 83 Count = 760 Current_Loss = 0.0175 Time = 1.16
+[2019-05-09 13:50:31] Epoch = 83 Count = 800 Current_Loss = 0.0136 Time = 1.16
+[2019-05-09 13:50:33] Epoch = 83 Count = 840 Current_Loss = 0.0138 Time = 1.17
+[2019-05-09 13:50:34] Epoch = 83 Count = 880 Current_Loss = 0.0231 Time = 1.16
+[2019-05-09 13:50:35] Epoch = 83 Count = 920 Current_Loss = 0.0247 Time = 1.18
+[2019-05-09 13:50:36] Epoch = 83 Count = 960 Current_Loss = 0.0162 Time = 1.17
+[2019-05-09 13:50:37] Epoch = 83 Count = 1000 Current_Loss = 0.0156 Time = 1.16
+[2019-05-09 13:50:38] Epoch = 83 Count = 1040 Current_Loss = 0.0247 Time = 1.16
+[2019-05-09 13:50:40] Epoch = 83 Count = 1080 Current_Loss = 0.0160 Time = 1.15
+[2019-05-09 13:50:41] Epoch = 83 Count = 1120 Current_Loss = 0.0121 Time = 1.16
+[2019-05-09 13:50:42] Epoch = 83 Count = 1160 Current_Loss = 0.0202 Time = 1.15
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0083 = 0.986721
+Average per class validation accuracies for epoch # 0083:
+Background = 0.993029
+RainCloud = 0.867874
+Validation precision =  0.9871697522978301
+Validation recall =  0.986720711844308
+Validation F1 score =  0.9863477481898328
+Validation IoU score =  0.8281290386139227
+[2019-05-09 13:50:58] Remaining training time = 0 hours 29 minutes 44 seconds
+
+[2019-05-09 13:50:59] Epoch = 84 Count = 40 Current_Loss = 0.0171 Time = 1.16
+[2019-05-09 13:51:00] Epoch = 84 Count = 80 Current_Loss = 0.0154 Time = 1.16
+[2019-05-09 13:51:02] Epoch = 84 Count = 120 Current_Loss = 0.0162 Time = 1.16
+[2019-05-09 13:51:03] Epoch = 84 Count = 160 Current_Loss = 0.0252 Time = 1.21
+[2019-05-09 13:51:04] Epoch = 84 Count = 200 Current_Loss = 0.0213 Time = 1.16
+[2019-05-09 13:51:05] Epoch = 84 Count = 240 Current_Loss = 0.0177 Time = 1.15
+[2019-05-09 13:51:06] Epoch = 84 Count = 280 Current_Loss = 0.0187 Time = 1.16
+[2019-05-09 13:51:07] Epoch = 84 Count = 320 Current_Loss = 0.0205 Time = 1.20
+[2019-05-09 13:51:09] Epoch = 84 Count = 360 Current_Loss = 0.0169 Time = 1.16
+[2019-05-09 13:51:10] Epoch = 84 Count = 400 Current_Loss = 0.0250 Time = 1.17
+[2019-05-09 13:51:11] Epoch = 84 Count = 440 Current_Loss = 0.0156 Time = 1.16
+[2019-05-09 13:51:12] Epoch = 84 Count = 480 Current_Loss = 0.0174 Time = 1.18
+[2019-05-09 13:51:13] Epoch = 84 Count = 520 Current_Loss = 0.0202 Time = 1.16
+[2019-05-09 13:51:14] Epoch = 84 Count = 560 Current_Loss = 0.0194 Time = 1.16
+[2019-05-09 13:51:16] Epoch = 84 Count = 600 Current_Loss = 0.0239 Time = 1.16
+[2019-05-09 13:51:17] Epoch = 84 Count = 640 Current_Loss = 0.0166 Time = 1.16
+[2019-05-09 13:51:18] Epoch = 84 Count = 680 Current_Loss = 0.0153 Time = 1.18
+[2019-05-09 13:51:19] Epoch = 84 Count = 720 Current_Loss = 0.0166 Time = 1.17
+[2019-05-09 13:51:20] Epoch = 84 Count = 760 Current_Loss = 0.0104 Time = 1.15
+[2019-05-09 13:51:21] Epoch = 84 Count = 800 Current_Loss = 0.0222 Time = 1.15
+[2019-05-09 13:51:23] Epoch = 84 Count = 840 Current_Loss = 0.0139 Time = 1.15
+[2019-05-09 13:51:24] Epoch = 84 Count = 880 Current_Loss = 0.0142 Time = 1.16
+[2019-05-09 13:51:25] Epoch = 84 Count = 920 Current_Loss = 0.0148 Time = 1.16
+[2019-05-09 13:51:26] Epoch = 84 Count = 960 Current_Loss = 0.0123 Time = 1.15
+[2019-05-09 13:51:27] Epoch = 84 Count = 1000 Current_Loss = 0.0217 Time = 1.17
+[2019-05-09 13:51:28] Epoch = 84 Count = 1040 Current_Loss = 0.0184 Time = 1.17
+[2019-05-09 13:51:30] Epoch = 84 Count = 1080 Current_Loss = 0.0212 Time = 1.16
+[2019-05-09 13:51:31] Epoch = 84 Count = 1120 Current_Loss = 0.0137 Time = 1.22
+[2019-05-09 13:51:32] Epoch = 84 Count = 1160 Current_Loss = 0.0262 Time = 1.18
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0084 = 0.986641
+Average per class validation accuracies for epoch # 0084:
+Background = 0.993772
+RainCloud = 0.846269
+Validation precision =  0.9873430811478627
+Validation recall =  0.9866410391671318
+Validation F1 score =  0.9864767071552897
+Validation IoU score =  0.8273217848831677
+[2019-05-09 13:51:48] Remaining training time = 0 hours 29 minutes 0 seconds
+
+[2019-05-09 13:51:49] Epoch = 85 Count = 40 Current_Loss = 0.0227 Time = 1.17
+[2019-05-09 13:51:50] Epoch = 85 Count = 80 Current_Loss = 0.0139 Time = 1.16
+[2019-05-09 13:51:52] Epoch = 85 Count = 120 Current_Loss = 0.0232 Time = 1.16
+[2019-05-09 13:51:53] Epoch = 85 Count = 160 Current_Loss = 0.0203 Time = 1.15
+[2019-05-09 13:51:54] Epoch = 85 Count = 200 Current_Loss = 0.0204 Time = 1.16
+[2019-05-09 13:51:55] Epoch = 85 Count = 240 Current_Loss = 0.0204 Time = 1.16
+[2019-05-09 13:51:56] Epoch = 85 Count = 280 Current_Loss = 0.0154 Time = 1.16
+[2019-05-09 13:51:57] Epoch = 85 Count = 320 Current_Loss = 0.0136 Time = 1.16
+[2019-05-09 13:51:59] Epoch = 85 Count = 360 Current_Loss = 0.0184 Time = 1.16
+[2019-05-09 13:52:00] Epoch = 85 Count = 400 Current_Loss = 0.0222 Time = 1.16
+[2019-05-09 13:52:01] Epoch = 85 Count = 440 Current_Loss = 0.0150 Time = 1.16
+[2019-05-09 13:52:02] Epoch = 85 Count = 480 Current_Loss = 0.0155 Time = 1.16
+[2019-05-09 13:52:03] Epoch = 85 Count = 520 Current_Loss = 0.0255 Time = 1.16
+[2019-05-09 13:52:04] Epoch = 85 Count = 560 Current_Loss = 0.0279 Time = 1.20
+[2019-05-09 13:52:06] Epoch = 85 Count = 600 Current_Loss = 0.0278 Time = 1.16
+[2019-05-09 13:52:07] Epoch = 85 Count = 640 Current_Loss = 0.0187 Time = 1.16
+[2019-05-09 13:52:08] Epoch = 85 Count = 680 Current_Loss = 0.0162 Time = 1.15
+[2019-05-09 13:52:09] Epoch = 85 Count = 720 Current_Loss = 0.0243 Time = 1.15
+[2019-05-09 13:52:10] Epoch = 85 Count = 760 Current_Loss = 0.0169 Time = 1.17
+[2019-05-09 13:52:11] Epoch = 85 Count = 800 Current_Loss = 0.0255 Time = 1.19
+[2019-05-09 13:52:13] Epoch = 85 Count = 840 Current_Loss = 0.0238 Time = 1.17
+[2019-05-09 13:52:14] Epoch = 85 Count = 880 Current_Loss = 0.0182 Time = 1.19
+[2019-05-09 13:52:15] Epoch = 85 Count = 920 Current_Loss = 0.0169 Time = 1.16
+[2019-05-09 13:52:16] Epoch = 85 Count = 960 Current_Loss = 0.0179 Time = 1.17
+[2019-05-09 13:52:17] Epoch = 85 Count = 1000 Current_Loss = 0.0147 Time = 1.15
+[2019-05-09 13:52:18] Epoch = 85 Count = 1040 Current_Loss = 0.0164 Time = 1.16
+[2019-05-09 13:52:20] Epoch = 85 Count = 1080 Current_Loss = 0.0124 Time = 1.17
+[2019-05-09 13:52:21] Epoch = 85 Count = 1120 Current_Loss = 0.0133 Time = 1.15
+[2019-05-09 13:52:22] Epoch = 85 Count = 1160 Current_Loss = 0.0120 Time = 1.15
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0085 = 0.986837
+Average per class validation accuracies for epoch # 0085:
+Background = 0.993650
+RainCloud = 0.856300
+Validation precision =  0.9874400678618351
+Validation recall =  0.9868367876325335
+Validation F1 score =  0.9865869436417524
+Validation IoU score =  0.8288386110127983
+[2019-05-09 13:52:38] Remaining training time = 0 hours 28 minutes 10 seconds
+
+[2019-05-09 13:52:39] Epoch = 86 Count = 40 Current_Loss = 0.0156 Time = 1.16
+[2019-05-09 13:52:40] Epoch = 86 Count = 80 Current_Loss = 0.0164 Time = 1.15
+[2019-05-09 13:52:41] Epoch = 86 Count = 120 Current_Loss = 0.0184 Time = 1.16
+[2019-05-09 13:52:43] Epoch = 86 Count = 160 Current_Loss = 0.0178 Time = 1.15
+[2019-05-09 13:52:44] Epoch = 86 Count = 200 Current_Loss = 0.0225 Time = 1.15
+[2019-05-09 13:52:45] Epoch = 86 Count = 240 Current_Loss = 0.0217 Time = 1.16
+[2019-05-09 13:52:46] Epoch = 86 Count = 280 Current_Loss = 0.0197 Time = 1.17
+[2019-05-09 13:52:47] Epoch = 86 Count = 320 Current_Loss = 0.0153 Time = 1.15
+[2019-05-09 13:52:48] Epoch = 86 Count = 360 Current_Loss = 0.0211 Time = 1.15
+[2019-05-09 13:52:50] Epoch = 86 Count = 400 Current_Loss = 0.0241 Time = 1.15
+[2019-05-09 13:52:51] Epoch = 86 Count = 440 Current_Loss = 0.0168 Time = 1.16
+[2019-05-09 13:52:52] Epoch = 86 Count = 480 Current_Loss = 0.0124 Time = 1.17
+[2019-05-09 13:52:53] Epoch = 86 Count = 520 Current_Loss = 0.0166 Time = 1.15
+[2019-05-09 13:52:54] Epoch = 86 Count = 560 Current_Loss = 0.0171 Time = 1.16
+[2019-05-09 13:52:55] Epoch = 86 Count = 600 Current_Loss = 0.0117 Time = 1.16
+[2019-05-09 13:52:57] Epoch = 86 Count = 640 Current_Loss = 0.0229 Time = 1.16
+[2019-05-09 13:52:58] Epoch = 86 Count = 680 Current_Loss = 0.0131 Time = 1.15
+[2019-05-09 13:52:59] Epoch = 86 Count = 720 Current_Loss = 0.0136 Time = 1.16
+[2019-05-09 13:53:00] Epoch = 86 Count = 760 Current_Loss = 0.0187 Time = 1.15
+[2019-05-09 13:53:01] Epoch = 86 Count = 800 Current_Loss = 0.0230 Time = 1.17
+[2019-05-09 13:53:02] Epoch = 86 Count = 840 Current_Loss = 0.0174 Time = 1.15
+[2019-05-09 13:53:03] Epoch = 86 Count = 880 Current_Loss = 0.0159 Time = 1.16
+[2019-05-09 13:53:05] Epoch = 86 Count = 920 Current_Loss = 0.0193 Time = 1.16
+[2019-05-09 13:53:06] Epoch = 86 Count = 960 Current_Loss = 0.0244 Time = 1.18
+[2019-05-09 13:53:07] Epoch = 86 Count = 1000 Current_Loss = 0.0184 Time = 1.15
+[2019-05-09 13:53:08] Epoch = 86 Count = 1040 Current_Loss = 0.0216 Time = 1.16
+[2019-05-09 13:53:09] Epoch = 86 Count = 1080 Current_Loss = 0.0161 Time = 1.17
+[2019-05-09 13:53:10] Epoch = 86 Count = 1120 Current_Loss = 0.0142 Time = 1.16
+[2019-05-09 13:53:12] Epoch = 86 Count = 1160 Current_Loss = 0.0212 Time = 1.19
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0086 = 0.987065
+Average per class validation accuracies for epoch # 0086:
+Background = 0.993696
+RainCloud = 0.857429
+Validation precision =  0.9875916518940921
+Validation recall =  0.987064688546317
+Validation F1 score =  0.9868008250725385
+Validation IoU score =  0.8304420556292841
+[2019-05-09 13:53:28] Remaining training time = 0 hours 27 minutes 18 seconds
+
+/home/freeverc/Programs/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py:537: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+[2019-05-09 13:53:29] Epoch = 87 Count = 40 Current_Loss = 0.0158 Time = 1.16
+[2019-05-09 13:53:30] Epoch = 87 Count = 80 Current_Loss = 0.0166 Time = 1.15
+[2019-05-09 13:53:31] Epoch = 87 Count = 120 Current_Loss = 0.0191 Time = 1.16
+[2019-05-09 13:53:33] Epoch = 87 Count = 160 Current_Loss = 0.0172 Time = 1.17
+[2019-05-09 13:53:34] Epoch = 87 Count = 200 Current_Loss = 0.0146 Time = 1.16
+[2019-05-09 13:53:35] Epoch = 87 Count = 240 Current_Loss = 0.0324 Time = 1.16
+[2019-05-09 13:53:36] Epoch = 87 Count = 280 Current_Loss = 0.0126 Time = 1.17
+[2019-05-09 13:53:37] Epoch = 87 Count = 320 Current_Loss = 0.0145 Time = 1.18
+[2019-05-09 13:53:38] Epoch = 87 Count = 360 Current_Loss = 0.0119 Time = 1.17
+[2019-05-09 13:53:40] Epoch = 87 Count = 400 Current_Loss = 0.0192 Time = 1.15
+[2019-05-09 13:53:41] Epoch = 87 Count = 440 Current_Loss = 0.0233 Time = 1.16
+[2019-05-09 13:53:42] Epoch = 87 Count = 480 Current_Loss = 0.0229 Time = 1.17
+[2019-05-09 13:53:43] Epoch = 87 Count = 520 Current_Loss = 0.0246 Time = 1.15
+[2019-05-09 13:53:44] Epoch = 87 Count = 560 Current_Loss = 0.0271 Time = 1.19
+[2019-05-09 13:53:45] Epoch = 87 Count = 600 Current_Loss = 0.0169 Time = 1.16
+[2019-05-09 13:53:47] Epoch = 87 Count = 640 Current_Loss = 0.0285 Time = 1.16
+[2019-05-09 13:53:48] Epoch = 87 Count = 680 Current_Loss = 0.0167 Time = 1.16
+[2019-05-09 13:53:49] Epoch = 87 Count = 720 Current_Loss = 0.0201 Time = 1.24
+[2019-05-09 13:53:50] Epoch = 87 Count = 760 Current_Loss = 0.0150 Time = 1.23
+[2019-05-09 13:53:51] Epoch = 87 Count = 800 Current_Loss = 0.0199 Time = 1.17
+[2019-05-09 13:53:53] Epoch = 87 Count = 840 Current_Loss = 0.0140 Time = 1.20
+[2019-05-09 13:53:54] Epoch = 87 Count = 880 Current_Loss = 0.0146 Time = 1.19
+[2019-05-09 13:53:55] Epoch = 87 Count = 920 Current_Loss = 0.0174 Time = 1.17
+[2019-05-09 13:53:56] Epoch = 87 Count = 960 Current_Loss = 0.0195 Time = 1.15
+[2019-05-09 13:53:57] Epoch = 87 Count = 1000 Current_Loss = 0.0173 Time = 1.16
+[2019-05-09 13:53:58] Epoch = 87 Count = 1040 Current_Loss = 0.0202 Time = 1.16
+[2019-05-09 13:54:00] Epoch = 87 Count = 1080 Current_Loss = 0.0171 Time = 1.16
+[2019-05-09 13:54:01] Epoch = 87 Count = 1120 Current_Loss = 0.0244 Time = 1.17
+[2019-05-09 13:54:02] Epoch = 87 Count = 1160 Current_Loss = 0.0215 Time = 1.17
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0087 = 0.987675
+Average per class validation accuracies for epoch # 0087:
+Background = 0.995597
+RainCloud = 0.820409
+Validation precision =  0.9887151454206491
+Validation recall =  0.9876747131347656
+Validation F1 score =  0.9878106776074004
+Validation IoU score =  0.8360460644176316
+[2019-05-09 13:54:18] Remaining training time = 0 hours 26 minutes 39 seconds
+
+[2019-05-09 13:54:19] Epoch = 88 Count = 40 Current_Loss = 0.0176 Time = 1.18
+[2019-05-09 13:54:20] Epoch = 88 Count = 80 Current_Loss = 0.0249 Time = 1.17
+[2019-05-09 13:54:22] Epoch = 88 Count = 120 Current_Loss = 0.0212 Time = 1.16
+[2019-05-09 13:54:23] Epoch = 88 Count = 160 Current_Loss = 0.0128 Time = 1.16
+[2019-05-09 13:54:24] Epoch = 88 Count = 200 Current_Loss = 0.0322 Time = 1.15
+[2019-05-09 13:54:25] Epoch = 88 Count = 240 Current_Loss = 0.0161 Time = 1.15
+[2019-05-09 13:54:26] Epoch = 88 Count = 280 Current_Loss = 0.0166 Time = 1.18
+[2019-05-09 13:54:27] Epoch = 88 Count = 320 Current_Loss = 0.0134 Time = 1.16
+[2019-05-09 13:54:29] Epoch = 88 Count = 360 Current_Loss = 0.0218 Time = 1.16
+[2019-05-09 13:54:30] Epoch = 88 Count = 400 Current_Loss = 0.0208 Time = 1.15
+[2019-05-09 13:54:31] Epoch = 88 Count = 440 Current_Loss = 0.0188 Time = 1.16
+[2019-05-09 13:54:32] Epoch = 88 Count = 480 Current_Loss = 0.0186 Time = 1.16
+[2019-05-09 13:54:33] Epoch = 88 Count = 520 Current_Loss = 0.0169 Time = 1.15
+[2019-05-09 13:54:34] Epoch = 88 Count = 560 Current_Loss = 0.0236 Time = 1.15
+[2019-05-09 13:54:35] Epoch = 88 Count = 600 Current_Loss = 0.0253 Time = 1.15
+[2019-05-09 13:54:37] Epoch = 88 Count = 640 Current_Loss = 0.0215 Time = 1.15
+[2019-05-09 13:54:38] Epoch = 88 Count = 680 Current_Loss = 0.0102 Time = 1.15
+[2019-05-09 13:54:39] Epoch = 88 Count = 720 Current_Loss = 0.0143 Time = 1.16
+[2019-05-09 13:54:40] Epoch = 88 Count = 760 Current_Loss = 0.0130 Time = 1.15
+[2019-05-09 13:54:41] Epoch = 88 Count = 800 Current_Loss = 0.0138 Time = 1.15
+[2019-05-09 13:54:42] Epoch = 88 Count = 840 Current_Loss = 0.0241 Time = 1.15
+[2019-05-09 13:54:44] Epoch = 88 Count = 880 Current_Loss = 0.0170 Time = 1.15
+[2019-05-09 13:54:45] Epoch = 88 Count = 920 Current_Loss = 0.0149 Time = 1.15
+[2019-05-09 13:54:46] Epoch = 88 Count = 960 Current_Loss = 0.0235 Time = 1.16
+[2019-05-09 13:54:47] Epoch = 88 Count = 1000 Current_Loss = 0.0159 Time = 1.15
+[2019-05-09 13:54:48] Epoch = 88 Count = 1040 Current_Loss = 0.0202 Time = 1.15
+[2019-05-09 13:54:49] Epoch = 88 Count = 1080 Current_Loss = 0.0142 Time = 1.16
+[2019-05-09 13:54:50] Epoch = 88 Count = 1120 Current_Loss = 0.0217 Time = 1.16
+[2019-05-09 13:54:52] Epoch = 88 Count = 1160 Current_Loss = 0.0189 Time = 1.16
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0088 = 0.987199
+Average per class validation accuracies for epoch # 0088:
+Background = 0.993949
+RainCloud = 0.856678
+Validation precision =  0.9878357270934418
+Validation recall =  0.9871994018554687
+Validation F1 score =  0.9870226022273728
+Validation IoU score =  0.8326416143736262
+[2019-05-09 13:55:07] Remaining training time = 0 hours 25 minutes 30 seconds
+
+[2019-05-09 13:55:09] Epoch = 89 Count = 40 Current_Loss = 0.0229 Time = 1.16
+[2019-05-09 13:55:10] Epoch = 89 Count = 80 Current_Loss = 0.0178 Time = 1.15
+[2019-05-09 13:55:11] Epoch = 89 Count = 120 Current_Loss = 0.0174 Time = 1.17
+[2019-05-09 13:55:12] Epoch = 89 Count = 160 Current_Loss = 0.0139 Time = 1.17
+[2019-05-09 13:55:13] Epoch = 89 Count = 200 Current_Loss = 0.0159 Time = 1.16
+[2019-05-09 13:55:15] Epoch = 89 Count = 240 Current_Loss = 0.0194 Time = 1.16
+[2019-05-09 13:55:16] Epoch = 89 Count = 280 Current_Loss = 0.0157 Time = 1.16
+[2019-05-09 13:55:17] Epoch = 89 Count = 320 Current_Loss = 0.0110 Time = 1.15
+[2019-05-09 13:55:18] Epoch = 89 Count = 360 Current_Loss = 0.0182 Time = 1.16
+[2019-05-09 13:55:19] Epoch = 89 Count = 400 Current_Loss = 0.0180 Time = 1.16
+[2019-05-09 13:55:20] Epoch = 89 Count = 440 Current_Loss = 0.0191 Time = 1.16
+[2019-05-09 13:55:22] Epoch = 89 Count = 480 Current_Loss = 0.0143 Time = 1.15
+[2019-05-09 13:55:23] Epoch = 89 Count = 520 Current_Loss = 0.0094 Time = 1.16
+[2019-05-09 13:55:24] Epoch = 89 Count = 560 Current_Loss = 0.0158 Time = 1.15
+[2019-05-09 13:55:25] Epoch = 89 Count = 600 Current_Loss = 0.0202 Time = 1.15
+[2019-05-09 13:55:26] Epoch = 89 Count = 640 Current_Loss = 0.0146 Time = 1.16
+[2019-05-09 13:55:27] Epoch = 89 Count = 680 Current_Loss = 0.0186 Time = 1.15
+[2019-05-09 13:55:29] Epoch = 89 Count = 720 Current_Loss = 0.0165 Time = 1.15
+[2019-05-09 13:55:30] Epoch = 89 Count = 760 Current_Loss = 0.0102 Time = 1.15
+[2019-05-09 13:55:31] Epoch = 89 Count = 800 Current_Loss = 0.0188 Time = 1.15
+[2019-05-09 13:55:32] Epoch = 89 Count = 840 Current_Loss = 0.0172 Time = 1.15
+[2019-05-09 13:55:33] Epoch = 89 Count = 880 Current_Loss = 0.0139 Time = 1.17
+[2019-05-09 13:55:34] Epoch = 89 Count = 920 Current_Loss = 0.0155 Time = 1.18
+[2019-05-09 13:55:35] Epoch = 89 Count = 960 Current_Loss = 0.0247 Time = 1.17
+[2019-05-09 13:55:37] Epoch = 89 Count = 1000 Current_Loss = 0.0194 Time = 1.16
+[2019-05-09 13:55:38] Epoch = 89 Count = 1040 Current_Loss = 0.0217 Time = 1.16
+[2019-05-09 13:55:39] Epoch = 89 Count = 1080 Current_Loss = 0.0150 Time = 1.18
+[2019-05-09 13:55:40] Epoch = 89 Count = 1120 Current_Loss = 0.0188 Time = 1.16
+[2019-05-09 13:55:41] Epoch = 89 Count = 1160 Current_Loss = 0.0210 Time = 1.15
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0089 = 0.986992
+Average per class validation accuracies for epoch # 0089:
+Background = 0.993447
+RainCloud = 0.861659
+Validation precision =  0.9874697252643403
+Validation recall =  0.9869919913155693
+Validation F1 score =  0.986681181436965
+Validation IoU score =  0.8299497767626826
+[2019-05-09 13:55:57] Remaining training time = 0 hours 24 minutes 50 seconds
+
+[2019-05-09 13:55:59] Epoch = 90 Count = 40 Current_Loss = 0.0124 Time = 1.18
+[2019-05-09 13:56:00] Epoch = 90 Count = 80 Current_Loss = 0.0131 Time = 1.17
+[2019-05-09 13:56:01] Epoch = 90 Count = 120 Current_Loss = 0.0161 Time = 1.16
+[2019-05-09 13:56:02] Epoch = 90 Count = 160 Current_Loss = 0.0130 Time = 1.15
+[2019-05-09 13:56:03] Epoch = 90 Count = 200 Current_Loss = 0.0154 Time = 1.16
+[2019-05-09 13:56:05] Epoch = 90 Count = 240 Current_Loss = 0.0198 Time = 1.15
+[2019-05-09 13:56:06] Epoch = 90 Count = 280 Current_Loss = 0.0201 Time = 1.15
+[2019-05-09 13:56:07] Epoch = 90 Count = 320 Current_Loss = 0.0188 Time = 1.15
+[2019-05-09 13:56:08] Epoch = 90 Count = 360 Current_Loss = 0.0140 Time = 1.15
+[2019-05-09 13:56:09] Epoch = 90 Count = 400 Current_Loss = 0.0184 Time = 1.15
+[2019-05-09 13:56:10] Epoch = 90 Count = 440 Current_Loss = 0.0249 Time = 1.15
+[2019-05-09 13:56:12] Epoch = 90 Count = 480 Current_Loss = 0.0247 Time = 1.15
+[2019-05-09 13:56:13] Epoch = 90 Count = 520 Current_Loss = 0.0167 Time = 1.16
+[2019-05-09 13:56:14] Epoch = 90 Count = 560 Current_Loss = 0.0219 Time = 1.17
+[2019-05-09 13:56:15] Epoch = 90 Count = 600 Current_Loss = 0.0209 Time = 1.18
+[2019-05-09 13:56:16] Epoch = 90 Count = 640 Current_Loss = 0.0242 Time = 1.18
+[2019-05-09 13:56:17] Epoch = 90 Count = 680 Current_Loss = 0.0162 Time = 1.15
+[2019-05-09 13:56:19] Epoch = 90 Count = 720 Current_Loss = 0.0252 Time = 1.15
+[2019-05-09 13:56:20] Epoch = 90 Count = 760 Current_Loss = 0.0134 Time = 1.15
+[2019-05-09 13:56:21] Epoch = 90 Count = 800 Current_Loss = 0.0201 Time = 1.15
+[2019-05-09 13:56:22] Epoch = 90 Count = 840 Current_Loss = 0.0110 Time = 1.15
+[2019-05-09 13:56:23] Epoch = 90 Count = 880 Current_Loss = 0.0238 Time = 1.16
+[2019-05-09 13:56:24] Epoch = 90 Count = 920 Current_Loss = 0.0154 Time = 1.17
+[2019-05-09 13:56:25] Epoch = 90 Count = 960 Current_Loss = 0.0219 Time = 1.16
+[2019-05-09 13:56:27] Epoch = 90 Count = 1000 Current_Loss = 0.0215 Time = 1.17
+[2019-05-09 13:56:28] Epoch = 90 Count = 1040 Current_Loss = 0.0193 Time = 1.15
+[2019-05-09 13:56:29] Epoch = 90 Count = 1080 Current_Loss = 0.0142 Time = 1.17
+[2019-05-09 13:56:30] Epoch = 90 Count = 1120 Current_Loss = 0.0106 Time = 1.22
+[2019-05-09 13:56:31] Epoch = 90 Count = 1160 Current_Loss = 0.0113 Time = 1.20
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0090 = 0.987409
+Average per class validation accuracies for epoch # 0090:
+Background = 0.994392
+RainCloud = 0.846260
+Validation precision =  0.9880841344421437
+Validation recall =  0.9874085562569754
+Validation F1 score =  0.9873022944078353
+Validation IoU score =  0.8343283517067511
+[2019-05-09 13:56:47] Remaining training time = 0 hours 24 minutes 4 seconds
+
+[2019-05-09 13:56:49] Epoch = 91 Count = 40 Current_Loss = 0.0182 Time = 1.16
+[2019-05-09 13:56:50] Epoch = 91 Count = 80 Current_Loss = 0.0223 Time = 1.16
+[2019-05-09 13:56:51] Epoch = 91 Count = 120 Current_Loss = 0.0205 Time = 1.16
+[2019-05-09 13:56:52] Epoch = 91 Count = 160 Current_Loss = 0.0186 Time = 1.19
+[2019-05-09 13:56:54] Epoch = 91 Count = 200 Current_Loss = 0.0217 Time = 1.17
+[2019-05-09 13:56:55] Epoch = 91 Count = 240 Current_Loss = 0.0211 Time = 1.17
+[2019-05-09 13:56:56] Epoch = 91 Count = 280 Current_Loss = 0.0147 Time = 1.19
+[2019-05-09 13:56:57] Epoch = 91 Count = 320 Current_Loss = 0.0164 Time = 1.17
+[2019-05-09 13:56:58] Epoch = 91 Count = 360 Current_Loss = 0.0102 Time = 1.15
+[2019-05-09 13:56:59] Epoch = 91 Count = 400 Current_Loss = 0.0161 Time = 1.15
+[2019-05-09 13:57:01] Epoch = 91 Count = 440 Current_Loss = 0.0196 Time = 1.15
+[2019-05-09 13:57:02] Epoch = 91 Count = 480 Current_Loss = 0.0155 Time = 1.15
+[2019-05-09 13:57:03] Epoch = 91 Count = 520 Current_Loss = 0.0143 Time = 1.15
+[2019-05-09 13:57:04] Epoch = 91 Count = 560 Current_Loss = 0.0109 Time = 1.15
+[2019-05-09 13:57:05] Epoch = 91 Count = 600 Current_Loss = 0.0136 Time = 1.15
+[2019-05-09 13:57:06] Epoch = 91 Count = 640 Current_Loss = 0.0136 Time = 1.15
+[2019-05-09 13:57:07] Epoch = 91 Count = 680 Current_Loss = 0.0149 Time = 1.15
+[2019-05-09 13:57:09] Epoch = 91 Count = 720 Current_Loss = 0.0263 Time = 1.15
+[2019-05-09 13:57:10] Epoch = 91 Count = 760 Current_Loss = 0.0199 Time = 1.15
+[2019-05-09 13:57:11] Epoch = 91 Count = 800 Current_Loss = 0.0240 Time = 1.16
+[2019-05-09 13:57:12] Epoch = 91 Count = 840 Current_Loss = 0.0107 Time = 1.15
+[2019-05-09 13:57:13] Epoch = 91 Count = 880 Current_Loss = 0.0242 Time = 1.16
+[2019-05-09 13:57:14] Epoch = 91 Count = 920 Current_Loss = 0.0213 Time = 1.16
+[2019-05-09 13:57:16] Epoch = 91 Count = 960 Current_Loss = 0.0203 Time = 1.15
+[2019-05-09 13:57:17] Epoch = 91 Count = 1000 Current_Loss = 0.0214 Time = 1.15
+[2019-05-09 13:57:18] Epoch = 91 Count = 1040 Current_Loss = 0.0256 Time = 1.15
+[2019-05-09 13:57:19] Epoch = 91 Count = 1080 Current_Loss = 0.0117 Time = 1.15
+[2019-05-09 13:57:20] Epoch = 91 Count = 1120 Current_Loss = 0.0133 Time = 1.15
+[2019-05-09 13:57:21] Epoch = 91 Count = 1160 Current_Loss = 0.0241 Time = 1.15
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0091 = 0.987364
+Average per class validation accuracies for epoch # 0091:
+Background = 0.995151
+RainCloud = 0.829546
+Validation precision =  0.9883571513278361
+Validation recall =  0.9873636518205915
+Validation F1 score =  0.9874225653273848
+Validation IoU score =  0.8335011223101729
+[2019-05-09 13:57:37] Remaining training time = 0 hours 23 minutes 2 seconds
+
+[2019-05-09 13:57:38] Epoch = 92 Count = 40 Current_Loss = 0.0173 Time = 1.16
+[2019-05-09 13:57:40] Epoch = 92 Count = 80 Current_Loss = 0.0154 Time = 1.15
+[2019-05-09 13:57:41] Epoch = 92 Count = 120 Current_Loss = 0.0148 Time = 1.15
+[2019-05-09 13:57:42] Epoch = 92 Count = 160 Current_Loss = 0.0229 Time = 1.16
+[2019-05-09 13:57:43] Epoch = 92 Count = 200 Current_Loss = 0.0171 Time = 1.18
+[2019-05-09 13:57:44] Epoch = 92 Count = 240 Current_Loss = 0.0247 Time = 1.18
+[2019-05-09 13:57:45] Epoch = 92 Count = 280 Current_Loss = 0.0156 Time = 1.18
+[2019-05-09 13:57:47] Epoch = 92 Count = 320 Current_Loss = 0.0202 Time = 1.19
+[2019-05-09 13:57:48] Epoch = 92 Count = 360 Current_Loss = 0.0158 Time = 1.17
+[2019-05-09 13:57:49] Epoch = 92 Count = 400 Current_Loss = 0.0132 Time = 1.16
+[2019-05-09 13:57:50] Epoch = 92 Count = 440 Current_Loss = 0.0153 Time = 1.16
+[2019-05-09 13:57:51] Epoch = 92 Count = 480 Current_Loss = 0.0127 Time = 1.23
+[2019-05-09 13:57:53] Epoch = 92 Count = 520 Current_Loss = 0.0137 Time = 1.19
+[2019-05-09 13:57:54] Epoch = 92 Count = 560 Current_Loss = 0.0195 Time = 1.18
+[2019-05-09 13:57:55] Epoch = 92 Count = 600 Current_Loss = 0.0151 Time = 1.16
+[2019-05-09 13:57:56] Epoch = 92 Count = 640 Current_Loss = 0.0184 Time = 1.15
+[2019-05-09 13:57:57] Epoch = 92 Count = 680 Current_Loss = 0.0128 Time = 1.16
+[2019-05-09 13:57:58] Epoch = 92 Count = 720 Current_Loss = 0.0194 Time = 1.15
+[2019-05-09 13:58:00] Epoch = 92 Count = 760 Current_Loss = 0.0162 Time = 1.16
+[2019-05-09 13:58:01] Epoch = 92 Count = 800 Current_Loss = 0.0208 Time = 1.16
+[2019-05-09 13:58:02] Epoch = 92 Count = 840 Current_Loss = 0.0151 Time = 1.16
+[2019-05-09 13:58:03] Epoch = 92 Count = 880 Current_Loss = 0.0135 Time = 1.16
+[2019-05-09 13:58:04] Epoch = 92 Count = 920 Current_Loss = 0.0229 Time = 1.15
+[2019-05-09 13:58:05] Epoch = 92 Count = 960 Current_Loss = 0.0222 Time = 1.16
+[2019-05-09 13:58:06] Epoch = 92 Count = 1000 Current_Loss = 0.0236 Time = 1.16
+[2019-05-09 13:58:08] Epoch = 92 Count = 1040 Current_Loss = 0.0255 Time = 1.15
+[2019-05-09 13:58:09] Epoch = 92 Count = 1080 Current_Loss = 0.0164 Time = 1.15
+[2019-05-09 13:58:10] Epoch = 92 Count = 1120 Current_Loss = 0.0157 Time = 1.16
+[2019-05-09 13:58:11] Epoch = 92 Count = 1160 Current_Loss = 0.0206 Time = 1.16
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0092 = 0.987393
+Average per class validation accuracies for epoch # 0092:
+Background = 0.993693
+RainCloud = 0.860802
+Validation precision =  0.9878087116650729
+Validation recall =  0.9873927525111608
+Validation F1 score =  0.9871372251582208
+Validation IoU score =  0.8344829958698603
+[2019-05-09 13:58:27] Remaining training time = 0 hours 22 minutes 31 seconds
+
+[2019-05-09 13:58:29] Epoch = 93 Count = 40 Current_Loss = 0.0300 Time = 1.15
+[2019-05-09 13:58:30] Epoch = 93 Count = 80 Current_Loss = 0.0183 Time = 1.16
+[2019-05-09 13:58:31] Epoch = 93 Count = 120 Current_Loss = 0.0135 Time = 1.16
+[2019-05-09 13:58:32] Epoch = 93 Count = 160 Current_Loss = 0.0153 Time = 1.16
+[2019-05-09 13:58:33] Epoch = 93 Count = 200 Current_Loss = 0.0164 Time = 1.15
+[2019-05-09 13:58:34] Epoch = 93 Count = 240 Current_Loss = 0.0190 Time = 1.15
+[2019-05-09 13:58:36] Epoch = 93 Count = 280 Current_Loss = 0.0170 Time = 1.15
+[2019-05-09 13:58:37] Epoch = 93 Count = 320 Current_Loss = 0.0183 Time = 1.15
+[2019-05-09 13:58:38] Epoch = 93 Count = 360 Current_Loss = 0.0154 Time = 1.15
+[2019-05-09 13:58:39] Epoch = 93 Count = 400 Current_Loss = 0.0185 Time = 1.16
+[2019-05-09 13:58:40] Epoch = 93 Count = 440 Current_Loss = 0.0175 Time = 1.15
+[2019-05-09 13:58:41] Epoch = 93 Count = 480 Current_Loss = 0.0099 Time = 1.15
+[2019-05-09 13:58:43] Epoch = 93 Count = 520 Current_Loss = 0.0168 Time = 1.17
+[2019-05-09 13:58:44] Epoch = 93 Count = 560 Current_Loss = 0.0138 Time = 1.17
+[2019-05-09 13:58:45] Epoch = 93 Count = 600 Current_Loss = 0.0212 Time = 1.16
+[2019-05-09 13:58:46] Epoch = 93 Count = 640 Current_Loss = 0.0268 Time = 1.16
+[2019-05-09 13:58:47] Epoch = 93 Count = 680 Current_Loss = 0.0157 Time = 1.15
+[2019-05-09 13:58:48] Epoch = 93 Count = 720 Current_Loss = 0.0221 Time = 1.16
+[2019-05-09 13:58:49] Epoch = 93 Count = 760 Current_Loss = 0.0138 Time = 1.15
+[2019-05-09 13:58:51] Epoch = 93 Count = 800 Current_Loss = 0.0181 Time = 1.15
+[2019-05-09 13:58:52] Epoch = 93 Count = 840 Current_Loss = 0.0183 Time = 1.16
+[2019-05-09 13:58:53] Epoch = 93 Count = 880 Current_Loss = 0.0223 Time = 1.16
+[2019-05-09 13:58:54] Epoch = 93 Count = 920 Current_Loss = 0.0216 Time = 1.15
+[2019-05-09 13:58:55] Epoch = 93 Count = 960 Current_Loss = 0.0209 Time = 1.16
+[2019-05-09 13:58:56] Epoch = 93 Count = 1000 Current_Loss = 0.0159 Time = 1.16
+[2019-05-09 13:58:58] Epoch = 93 Count = 1040 Current_Loss = 0.0157 Time = 1.15
+[2019-05-09 13:58:59] Epoch = 93 Count = 1080 Current_Loss = 0.0140 Time = 1.16
+[2019-05-09 13:59:00] Epoch = 93 Count = 1120 Current_Loss = 0.0164 Time = 1.19
+[2019-05-09 13:59:01] Epoch = 93 Count = 1160 Current_Loss = 0.0196 Time = 1.18
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0093 = 0.987707
+Average per class validation accuracies for epoch # 0093:
+Background = 0.994634
+RainCloud = 0.849060
+Validation precision =  0.9883995488727241
+Validation recall =  0.9877069745744977
+Validation F1 score =  0.9876289487008084
+Validation IoU score =  0.8374229390297527
+[2019-05-09 13:59:17] Remaining training time = 0 hours 21 minutes 33 seconds
+
+[2019-05-09 13:59:19] Epoch = 94 Count = 40 Current_Loss = 0.0165 Time = 1.16
+[2019-05-09 13:59:20] Epoch = 94 Count = 80 Current_Loss = 0.0163 Time = 1.15
+[2019-05-09 13:59:21] Epoch = 94 Count = 120 Current_Loss = 0.0200 Time = 1.16
+[2019-05-09 13:59:22] Epoch = 94 Count = 160 Current_Loss = 0.0138 Time = 1.15
+[2019-05-09 13:59:23] Epoch = 94 Count = 200 Current_Loss = 0.0145 Time = 1.16
+[2019-05-09 13:59:24] Epoch = 94 Count = 240 Current_Loss = 0.0164 Time = 1.15
+[2019-05-09 13:59:26] Epoch = 94 Count = 280 Current_Loss = 0.0130 Time = 1.15
+[2019-05-09 13:59:27] Epoch = 94 Count = 320 Current_Loss = 0.0217 Time = 1.15
+[2019-05-09 13:59:28] Epoch = 94 Count = 360 Current_Loss = 0.0128 Time = 1.15
+[2019-05-09 13:59:29] Epoch = 94 Count = 400 Current_Loss = 0.0191 Time = 1.15
+[2019-05-09 13:59:30] Epoch = 94 Count = 440 Current_Loss = 0.0187 Time = 1.15
+[2019-05-09 13:59:31] Epoch = 94 Count = 480 Current_Loss = 0.0161 Time = 1.15
+[2019-05-09 13:59:32] Epoch = 94 Count = 520 Current_Loss = 0.0172 Time = 1.15
+[2019-05-09 13:59:34] Epoch = 94 Count = 560 Current_Loss = 0.0164 Time = 1.15
+[2019-05-09 13:59:35] Epoch = 94 Count = 600 Current_Loss = 0.0146 Time = 1.15
+[2019-05-09 13:59:36] Epoch = 94 Count = 640 Current_Loss = 0.0196 Time = 1.15
+[2019-05-09 13:59:37] Epoch = 94 Count = 680 Current_Loss = 0.0121 Time = 1.17
+[2019-05-09 13:59:38] Epoch = 94 Count = 720 Current_Loss = 0.0117 Time = 1.19
+[2019-05-09 13:59:39] Epoch = 94 Count = 760 Current_Loss = 0.0143 Time = 1.15
+[2019-05-09 13:59:41] Epoch = 94 Count = 800 Current_Loss = 0.0127 Time = 1.15
+[2019-05-09 13:59:42] Epoch = 94 Count = 840 Current_Loss = 0.0132 Time = 1.15
+[2019-05-09 13:59:43] Epoch = 94 Count = 880 Current_Loss = 0.0185 Time = 1.15
+[2019-05-09 13:59:44] Epoch = 94 Count = 920 Current_Loss = 0.0162 Time = 1.15
+[2019-05-09 13:59:45] Epoch = 94 Count = 960 Current_Loss = 0.0212 Time = 1.15
+[2019-05-09 13:59:46] Epoch = 94 Count = 1000 Current_Loss = 0.0203 Time = 1.15
+[2019-05-09 13:59:47] Epoch = 94 Count = 1040 Current_Loss = 0.0249 Time = 1.15
+[2019-05-09 13:59:49] Epoch = 94 Count = 1080 Current_Loss = 0.0146 Time = 1.15
+[2019-05-09 13:59:50] Epoch = 94 Count = 1120 Current_Loss = 0.0142 Time = 1.15
+[2019-05-09 13:59:51] Epoch = 94 Count = 1160 Current_Loss = 0.0159 Time = 1.16
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0094 = 0.987560
+Average per class validation accuracies for epoch # 0094:
+Background = 0.995271
+RainCloud = 0.831731
+Validation precision =  0.9885106880438587
+Validation recall =  0.9875602722167969
+Validation F1 score =  0.9876318972832951
+Validation IoU score =  0.8364711695994898
+[2019-05-09 14:00:07] Remaining training time = 0 hours 20 minutes 31 seconds
+
+[2019-05-09 14:00:08] Epoch = 95 Count = 40 Current_Loss = 0.0219 Time = 1.16
+[2019-05-09 14:00:09] Epoch = 95 Count = 80 Current_Loss = 0.0186 Time = 1.15
+[2019-05-09 14:00:10] Epoch = 95 Count = 120 Current_Loss = 0.0177 Time = 1.15
+[2019-05-09 14:00:12] Epoch = 95 Count = 160 Current_Loss = 0.0127 Time = 1.15
+[2019-05-09 14:00:13] Epoch = 95 Count = 200 Current_Loss = 0.0133 Time = 1.15
+[2019-05-09 14:00:14] Epoch = 95 Count = 240 Current_Loss = 0.0123 Time = 1.18
+[2019-05-09 14:00:15] Epoch = 95 Count = 280 Current_Loss = 0.0150 Time = 1.16
+[2019-05-09 14:00:16] Epoch = 95 Count = 320 Current_Loss = 0.0192 Time = 1.15
+[2019-05-09 14:00:17] Epoch = 95 Count = 360 Current_Loss = 0.0225 Time = 1.15
+[2019-05-09 14:00:19] Epoch = 95 Count = 400 Current_Loss = 0.0119 Time = 1.16
+[2019-05-09 14:00:20] Epoch = 95 Count = 440 Current_Loss = 0.0239 Time = 1.15
+[2019-05-09 14:00:21] Epoch = 95 Count = 480 Current_Loss = 0.0178 Time = 1.15
+[2019-05-09 14:00:22] Epoch = 95 Count = 520 Current_Loss = 0.0189 Time = 1.16
+[2019-05-09 14:00:23] Epoch = 95 Count = 560 Current_Loss = 0.0182 Time = 1.15
+[2019-05-09 14:00:24] Epoch = 95 Count = 600 Current_Loss = 0.0160 Time = 1.15
+[2019-05-09 14:00:25] Epoch = 95 Count = 640 Current_Loss = 0.0113 Time = 1.18
+[2019-05-09 14:00:27] Epoch = 95 Count = 680 Current_Loss = 0.0254 Time = 1.19
+[2019-05-09 14:00:28] Epoch = 95 Count = 720 Current_Loss = 0.0227 Time = 1.18
+[2019-05-09 14:00:29] Epoch = 95 Count = 760 Current_Loss = 0.0196 Time = 1.19
+[2019-05-09 14:00:30] Epoch = 95 Count = 800 Current_Loss = 0.0183 Time = 1.18
+[2019-05-09 14:00:31] Epoch = 95 Count = 840 Current_Loss = 0.0218 Time = 1.19
+[2019-05-09 14:00:33] Epoch = 95 Count = 880 Current_Loss = 0.0164 Time = 1.19
+[2019-05-09 14:00:34] Epoch = 95 Count = 920 Current_Loss = 0.0219 Time = 1.18
+[2019-05-09 14:00:35] Epoch = 95 Count = 960 Current_Loss = 0.0104 Time = 1.18
+[2019-05-09 14:00:36] Epoch = 95 Count = 1000 Current_Loss = 0.0212 Time = 1.18
+[2019-05-09 14:00:37] Epoch = 95 Count = 1040 Current_Loss = 0.0137 Time = 1.18
+[2019-05-09 14:00:39] Epoch = 95 Count = 1080 Current_Loss = 0.0194 Time = 1.18
+[2019-05-09 14:00:40] Epoch = 95 Count = 1120 Current_Loss = 0.0218 Time = 1.18
+[2019-05-09 14:00:41] Epoch = 95 Count = 1160 Current_Loss = 0.0225 Time = 1.18
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0095 = 0.987378
+Average per class validation accuracies for epoch # 0095:
+Background = 0.994554
+RainCloud = 0.843241
+Validation precision =  0.9881465669870271
+Validation recall =  0.9873784746442522
+Validation F1 score =  0.9872661047143255
+Validation IoU score =  0.8351350312473681
+[2019-05-09 14:00:57] Remaining training time = 0 hours 19 minutes 59 seconds
+
+[2019-05-09 14:00:58] Epoch = 96 Count = 40 Current_Loss = 0.0249 Time = 1.18
+[2019-05-09 14:01:00] Epoch = 96 Count = 80 Current_Loss = 0.0208 Time = 1.15
+[2019-05-09 14:01:01] Epoch = 96 Count = 120 Current_Loss = 0.0160 Time = 1.15
+[2019-05-09 14:01:02] Epoch = 96 Count = 160 Current_Loss = 0.0133 Time = 1.15
+[2019-05-09 14:01:03] Epoch = 96 Count = 200 Current_Loss = 0.0116 Time = 1.15
+[2019-05-09 14:01:04] Epoch = 96 Count = 240 Current_Loss = 0.0177 Time = 1.15
+[2019-05-09 14:01:05] Epoch = 96 Count = 280 Current_Loss = 0.0183 Time = 1.15
+[2019-05-09 14:01:06] Epoch = 96 Count = 320 Current_Loss = 0.0216 Time = 1.15
+[2019-05-09 14:01:08] Epoch = 96 Count = 360 Current_Loss = 0.0148 Time = 1.15
+[2019-05-09 14:01:09] Epoch = 96 Count = 400 Current_Loss = 0.0158 Time = 1.15
+[2019-05-09 14:01:10] Epoch = 96 Count = 440 Current_Loss = 0.0175 Time = 1.15
+[2019-05-09 14:01:11] Epoch = 96 Count = 480 Current_Loss = 0.0207 Time = 1.15
+[2019-05-09 14:01:12] Epoch = 96 Count = 520 Current_Loss = 0.0238 Time = 1.15
+[2019-05-09 14:01:13] Epoch = 96 Count = 560 Current_Loss = 0.0178 Time = 1.15
+[2019-05-09 14:01:14] Epoch = 96 Count = 600 Current_Loss = 0.0198 Time = 1.15
+[2019-05-09 14:01:16] Epoch = 96 Count = 640 Current_Loss = 0.0214 Time = 1.15
+[2019-05-09 14:01:17] Epoch = 96 Count = 680 Current_Loss = 0.0160 Time = 1.15
+[2019-05-09 14:01:18] Epoch = 96 Count = 720 Current_Loss = 0.0194 Time = 1.15
+[2019-05-09 14:01:19] Epoch = 96 Count = 760 Current_Loss = 0.0199 Time = 1.15
+[2019-05-09 14:01:20] Epoch = 96 Count = 800 Current_Loss = 0.0163 Time = 1.15
+[2019-05-09 14:01:21] Epoch = 96 Count = 840 Current_Loss = 0.0211 Time = 1.15
+[2019-05-09 14:01:22] Epoch = 96 Count = 880 Current_Loss = 0.0102 Time = 1.15
+[2019-05-09 14:01:24] Epoch = 96 Count = 920 Current_Loss = 0.0199 Time = 1.15
+[2019-05-09 14:01:25] Epoch = 96 Count = 960 Current_Loss = 0.0201 Time = 1.15
+[2019-05-09 14:01:26] Epoch = 96 Count = 1000 Current_Loss = 0.0224 Time = 1.14
+[2019-05-09 14:01:27] Epoch = 96 Count = 1040 Current_Loss = 0.0128 Time = 1.15
+[2019-05-09 14:01:28] Epoch = 96 Count = 1080 Current_Loss = 0.0152 Time = 1.15
+[2019-05-09 14:01:29] Epoch = 96 Count = 1120 Current_Loss = 0.0173 Time = 1.15
+[2019-05-09 14:01:31] Epoch = 96 Count = 1160 Current_Loss = 0.0191 Time = 1.15
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0096 = 0.988124
+Average per class validation accuracies for epoch # 0096:
+Background = 0.995843
+RainCloud = 0.820449
+Validation precision =  0.9891260654784662
+Validation recall =  0.9881237574986049
+Validation F1 score =  0.9882890835882421
+Validation IoU score =  0.8404104757846422
+[2019-05-09 14:01:46] Remaining training time = 0 hours 18 minutes 50 seconds
+
+[2019-05-09 14:01:48] Epoch = 97 Count = 40 Current_Loss = 0.0168 Time = 1.17
+[2019-05-09 14:01:49] Epoch = 97 Count = 80 Current_Loss = 0.0167 Time = 1.15
+[2019-05-09 14:01:50] Epoch = 97 Count = 120 Current_Loss = 0.0236 Time = 1.15
+[2019-05-09 14:01:51] Epoch = 97 Count = 160 Current_Loss = 0.0193 Time = 1.15
+[2019-05-09 14:01:52] Epoch = 97 Count = 200 Current_Loss = 0.0161 Time = 1.15
+[2019-05-09 14:01:53] Epoch = 97 Count = 240 Current_Loss = 0.0183 Time = 1.15
+[2019-05-09 14:01:55] Epoch = 97 Count = 280 Current_Loss = 0.0175 Time = 1.15
+[2019-05-09 14:01:56] Epoch = 97 Count = 320 Current_Loss = 0.0240 Time = 1.16
+[2019-05-09 14:01:57] Epoch = 97 Count = 360 Current_Loss = 0.0168 Time = 1.15
+[2019-05-09 14:01:58] Epoch = 97 Count = 400 Current_Loss = 0.0161 Time = 1.15
+[2019-05-09 14:01:59] Epoch = 97 Count = 440 Current_Loss = 0.0177 Time = 1.15
+[2019-05-09 14:02:00] Epoch = 97 Count = 480 Current_Loss = 0.0196 Time = 1.16
+[2019-05-09 14:02:02] Epoch = 97 Count = 520 Current_Loss = 0.0116 Time = 1.15
+[2019-05-09 14:02:03] Epoch = 97 Count = 560 Current_Loss = 0.0131 Time = 1.16
+[2019-05-09 14:02:04] Epoch = 97 Count = 600 Current_Loss = 0.0120 Time = 1.16
+[2019-05-09 14:02:05] Epoch = 97 Count = 640 Current_Loss = 0.0154 Time = 1.16
+[2019-05-09 14:02:06] Epoch = 97 Count = 680 Current_Loss = 0.0153 Time = 1.15
+[2019-05-09 14:02:07] Epoch = 97 Count = 720 Current_Loss = 0.0268 Time = 1.15
+[2019-05-09 14:02:09] Epoch = 97 Count = 760 Current_Loss = 0.0185 Time = 1.16
+[2019-05-09 14:02:10] Epoch = 97 Count = 800 Current_Loss = 0.0212 Time = 1.16
+[2019-05-09 14:02:11] Epoch = 97 Count = 840 Current_Loss = 0.0204 Time = 1.18
+[2019-05-09 14:02:12] Epoch = 97 Count = 880 Current_Loss = 0.0221 Time = 1.16
+[2019-05-09 14:02:13] Epoch = 97 Count = 920 Current_Loss = 0.0204 Time = 1.17
+[2019-05-09 14:02:14] Epoch = 97 Count = 960 Current_Loss = 0.0157 Time = 1.19
+[2019-05-09 14:02:16] Epoch = 97 Count = 1000 Current_Loss = 0.0133 Time = 1.22
+[2019-05-09 14:02:17] Epoch = 97 Count = 1040 Current_Loss = 0.0112 Time = 1.18
+[2019-05-09 14:02:18] Epoch = 97 Count = 1080 Current_Loss = 0.0139 Time = 1.16
+[2019-05-09 14:02:19] Epoch = 97 Count = 1120 Current_Loss = 0.0145 Time = 1.18
+[2019-05-09 14:02:20] Epoch = 97 Count = 1160 Current_Loss = 0.0174 Time = 1.16
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0097 = 0.987683
+Average per class validation accuracies for epoch # 0097:
+Background = 0.994838
+RainCloud = 0.841399
+Validation precision =  0.9884339774947335
+Validation recall =  0.9876825605119978
+Validation F1 score =  0.9876581681052561
+Validation IoU score =  0.83688404344091
+[2019-05-09 14:02:36] Remaining training time = 0 hours 18 minutes 14 seconds
+
+[2019-05-09 14:02:38] Epoch = 98 Count = 40 Current_Loss = 0.0183 Time = 1.16
+[2019-05-09 14:02:39] Epoch = 98 Count = 80 Current_Loss = 0.0163 Time = 1.14
+[2019-05-09 14:02:40] Epoch = 98 Count = 120 Current_Loss = 0.0193 Time = 1.15
+[2019-05-09 14:02:41] Epoch = 98 Count = 160 Current_Loss = 0.0256 Time = 1.15
+[2019-05-09 14:02:42] Epoch = 98 Count = 200 Current_Loss = 0.0157 Time = 1.15
+[2019-05-09 14:02:43] Epoch = 98 Count = 240 Current_Loss = 0.0143 Time = 1.15
+[2019-05-09 14:02:45] Epoch = 98 Count = 280 Current_Loss = 0.0189 Time = 1.15
+[2019-05-09 14:02:46] Epoch = 98 Count = 320 Current_Loss = 0.0144 Time = 1.15
+[2019-05-09 14:02:47] Epoch = 98 Count = 360 Current_Loss = 0.0177 Time = 1.15
+[2019-05-09 14:02:48] Epoch = 98 Count = 400 Current_Loss = 0.0195 Time = 1.15
+[2019-05-09 14:02:49] Epoch = 98 Count = 440 Current_Loss = 0.0169 Time = 1.15
+[2019-05-09 14:02:50] Epoch = 98 Count = 480 Current_Loss = 0.0135 Time = 1.15
+[2019-05-09 14:02:52] Epoch = 98 Count = 520 Current_Loss = 0.0173 Time = 1.15
+[2019-05-09 14:02:53] Epoch = 98 Count = 560 Current_Loss = 0.0137 Time = 1.15
+[2019-05-09 14:02:54] Epoch = 98 Count = 600 Current_Loss = 0.0230 Time = 1.15
+[2019-05-09 14:02:55] Epoch = 98 Count = 640 Current_Loss = 0.0253 Time = 1.15
+[2019-05-09 14:02:56] Epoch = 98 Count = 680 Current_Loss = 0.0166 Time = 1.15
+[2019-05-09 14:02:57] Epoch = 98 Count = 720 Current_Loss = 0.0201 Time = 1.15
+[2019-05-09 14:02:58] Epoch = 98 Count = 760 Current_Loss = 0.0150 Time = 1.15
+[2019-05-09 14:03:00] Epoch = 98 Count = 800 Current_Loss = 0.0199 Time = 1.15
+[2019-05-09 14:03:01] Epoch = 98 Count = 840 Current_Loss = 0.0183 Time = 1.15
+[2019-05-09 14:03:02] Epoch = 98 Count = 880 Current_Loss = 0.0168 Time = 1.15
+[2019-05-09 14:03:03] Epoch = 98 Count = 920 Current_Loss = 0.0146 Time = 1.15
+[2019-05-09 14:03:04] Epoch = 98 Count = 960 Current_Loss = 0.0160 Time = 1.15
+[2019-05-09 14:03:05] Epoch = 98 Count = 1000 Current_Loss = 0.0196 Time = 1.15
+[2019-05-09 14:03:06] Epoch = 98 Count = 1040 Current_Loss = 0.0234 Time = 1.15
+[2019-05-09 14:03:08] Epoch = 98 Count = 1080 Current_Loss = 0.0149 Time = 1.15
+[2019-05-09 14:03:09] Epoch = 98 Count = 1120 Current_Loss = 0.0247 Time = 1.16
+[2019-05-09 14:03:10] Epoch = 98 Count = 1160 Current_Loss = 0.0190 Time = 1.15
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0098 = 0.987931
+Average per class validation accuracies for epoch # 0098:
+Background = 0.995608
+RainCloud = 0.826305
+Validation precision =  0.9889052748805592
+Validation recall =  0.9879312787737166
+Validation F1 score =  0.9880717398794658
+Validation IoU score =  0.839682059354623
+[2019-05-09 14:03:26] Remaining training time = 0 hours 17 minutes 15 seconds
+
+[2019-05-09 14:03:27] Epoch = 99 Count = 40 Current_Loss = 0.0182 Time = 1.16
+[2019-05-09 14:03:28] Epoch = 99 Count = 80 Current_Loss = 0.0155 Time = 1.15
+[2019-05-09 14:03:30] Epoch = 99 Count = 120 Current_Loss = 0.0183 Time = 1.15
+[2019-05-09 14:03:31] Epoch = 99 Count = 160 Current_Loss = 0.0121 Time = 1.15
+[2019-05-09 14:03:32] Epoch = 99 Count = 200 Current_Loss = 0.0192 Time = 1.15
+[2019-05-09 14:03:33] Epoch = 99 Count = 240 Current_Loss = 0.0208 Time = 1.15
+[2019-05-09 14:03:34] Epoch = 99 Count = 280 Current_Loss = 0.0209 Time = 1.15
+[2019-05-09 14:03:35] Epoch = 99 Count = 320 Current_Loss = 0.0191 Time = 1.15
+[2019-05-09 14:03:36] Epoch = 99 Count = 360 Current_Loss = 0.0218 Time = 1.15
+[2019-05-09 14:03:38] Epoch = 99 Count = 400 Current_Loss = 0.0115 Time = 1.15
+[2019-05-09 14:03:39] Epoch = 99 Count = 440 Current_Loss = 0.0191 Time = 1.15
+[2019-05-09 14:03:40] Epoch = 99 Count = 480 Current_Loss = 0.0184 Time = 1.15
+[2019-05-09 14:03:41] Epoch = 99 Count = 520 Current_Loss = 0.0223 Time = 1.15
+[2019-05-09 14:03:42] Epoch = 99 Count = 560 Current_Loss = 0.0150 Time = 1.15
+[2019-05-09 14:03:43] Epoch = 99 Count = 600 Current_Loss = 0.0170 Time = 1.15
+[2019-05-09 14:03:44] Epoch = 99 Count = 640 Current_Loss = 0.0184 Time = 1.15
+[2019-05-09 14:03:46] Epoch = 99 Count = 680 Current_Loss = 0.0200 Time = 1.15
+[2019-05-09 14:03:47] Epoch = 99 Count = 720 Current_Loss = 0.0196 Time = 1.15
+[2019-05-09 14:03:48] Epoch = 99 Count = 760 Current_Loss = 0.0199 Time = 1.15
+[2019-05-09 14:03:49] Epoch = 99 Count = 800 Current_Loss = 0.0218 Time = 1.15
+[2019-05-09 14:03:50] Epoch = 99 Count = 840 Current_Loss = 0.0205 Time = 1.15
+[2019-05-09 14:03:51] Epoch = 99 Count = 880 Current_Loss = 0.0148 Time = 1.15
+[2019-05-09 14:03:53] Epoch = 99 Count = 920 Current_Loss = 0.0135 Time = 1.15
+[2019-05-09 14:03:54] Epoch = 99 Count = 960 Current_Loss = 0.0115 Time = 1.15
+[2019-05-09 14:03:55] Epoch = 99 Count = 1000 Current_Loss = 0.0227 Time = 1.15
+[2019-05-09 14:03:56] Epoch = 99 Count = 1040 Current_Loss = 0.0153 Time = 1.15
+[2019-05-09 14:03:57] Epoch = 99 Count = 1080 Current_Loss = 0.0215 Time = 1.15
+[2019-05-09 14:03:58] Epoch = 99 Count = 1120 Current_Loss = 0.0188 Time = 1.15
+[2019-05-09 14:03:59] Epoch = 99 Count = 1160 Current_Loss = 0.0234 Time = 1.15
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0099 = 0.987457
+Average per class validation accuracies for epoch # 0099:
+Background = 0.994911
+RainCloud = 0.838716
+Validation precision =  0.9883175582114443
+Validation recall =  0.9874568394252232
+Validation F1 score =  0.9874460048584699
+Validation IoU score =  0.8349336410106567
+[2019-05-09 14:04:15] Remaining training time = 0 hours 16 minutes 24 seconds
+
+[2019-05-09 14:04:17] Epoch = 100 Count = 40 Current_Loss = 0.0166 Time = 1.15
+[2019-05-09 14:04:18] Epoch = 100 Count = 80 Current_Loss = 0.0167 Time = 1.15
+[2019-05-09 14:04:19] Epoch = 100 Count = 120 Current_Loss = 0.0163 Time = 1.15
+[2019-05-09 14:04:20] Epoch = 100 Count = 160 Current_Loss = 0.0125 Time = 1.15
+[2019-05-09 14:04:21] Epoch = 100 Count = 200 Current_Loss = 0.0152 Time = 1.16
+[2019-05-09 14:04:22] Epoch = 100 Count = 240 Current_Loss = 0.0201 Time = 1.15
+[2019-05-09 14:04:24] Epoch = 100 Count = 280 Current_Loss = 0.0126 Time = 1.15
+[2019-05-09 14:04:25] Epoch = 100 Count = 320 Current_Loss = 0.0189 Time = 1.15
+[2019-05-09 14:04:26] Epoch = 100 Count = 360 Current_Loss = 0.0321 Time = 1.15
+[2019-05-09 14:04:27] Epoch = 100 Count = 400 Current_Loss = 0.0158 Time = 1.15
+[2019-05-09 14:04:28] Epoch = 100 Count = 440 Current_Loss = 0.0160 Time = 1.15
+[2019-05-09 14:04:29] Epoch = 100 Count = 480 Current_Loss = 0.0131 Time = 1.15
+[2019-05-09 14:04:30] Epoch = 100 Count = 520 Current_Loss = 0.0129 Time = 1.15
+[2019-05-09 14:04:32] Epoch = 100 Count = 560 Current_Loss = 0.0154 Time = 1.15
+[2019-05-09 14:04:33] Epoch = 100 Count = 600 Current_Loss = 0.0152 Time = 1.15
+[2019-05-09 14:04:34] Epoch = 100 Count = 640 Current_Loss = 0.0189 Time = 1.15
+[2019-05-09 14:04:35] Epoch = 100 Count = 680 Current_Loss = 0.0192 Time = 1.15
+[2019-05-09 14:04:36] Epoch = 100 Count = 720 Current_Loss = 0.0166 Time = 1.15
+[2019-05-09 14:04:37] Epoch = 100 Count = 760 Current_Loss = 0.0204 Time = 1.15
+[2019-05-09 14:04:39] Epoch = 100 Count = 800 Current_Loss = 0.0132 Time = 1.15
+[2019-05-09 14:04:40] Epoch = 100 Count = 840 Current_Loss = 0.0193 Time = 1.15
+[2019-05-09 14:04:41] Epoch = 100 Count = 880 Current_Loss = 0.0213 Time = 1.15
+[2019-05-09 14:04:42] Epoch = 100 Count = 920 Current_Loss = 0.0210 Time = 1.15
+[2019-05-09 14:04:43] Epoch = 100 Count = 960 Current_Loss = 0.0219 Time = 1.15
+[2019-05-09 14:04:44] Epoch = 100 Count = 1000 Current_Loss = 0.0203 Time = 1.15
+[2019-05-09 14:04:45] Epoch = 100 Count = 1040 Current_Loss = 0.0252 Time = 1.15
+[2019-05-09 14:04:47] Epoch = 100 Count = 1080 Current_Loss = 0.0160 Time = 1.15
+[2019-05-09 14:04:48] Epoch = 100 Count = 1120 Current_Loss = 0.0144 Time = 1.15
+[2019-05-09 14:04:49] Epoch = 100 Count = 1160 Current_Loss = 0.0169 Time = 1.16
+Saving latest checkpoint
+Saving checkpoint for this epoch
+Performing validation
+
+Average validation accuracy for epoch # 0100 = 0.987863
+Average per class validation accuracies for epoch # 0100:
+Background = 0.994785
+RainCloud = 0.851266
+Validation precision =  0.9885992375174893
+Validation recall =  0.9878628322056362
+Validation F1 score =  0.9878061216611639
+Validation IoU score =  0.8395716864184909
+[2019-05-09 14:05:06] Remaining training time = 0 hours 15 minutes 59 seconds
+
+[2019-05-09 14:05:07] Epoch = 101 Count = 40 Current_Loss = 0.0180 Time = 1.16
+[2019-05-09 14:05:09] Epoch = 101 Count = 80 Current_Loss = 0.0155 Time = 1.16
+[2019-05-09 14:05:10] Epoch = 101 Count = 120 Current_Loss = 0.0276 Time = 1.15
+[2019-05-09 14:05:11] Epoch = 101 Count = 160 Current_Loss = 0.0190 Time = 1.15
+[2019-05-09 14:05:12] Epoch = 101 Count = 200 Current_Loss = 0.0172 Time = 1.15
+[2019-05-09 14:05:13] Epoch = 101 Count = 240 Current_Loss = 0.0185 Time = 1.15
+[2019-05-09 14:05:14] Epoch = 101 Count = 280 Current_Loss = 0.0227 Time = 1.16
+[2019-05-09 14:05:15] Epoch = 101 Count = 320 Current_Loss = 0.0150 Time = 1.15
+[2019-05-09 14:05:17] Epoch = 101 Count = 360 Current_Loss = 0.0164 Time = 1.17
+[2019-05-09 14:05:18] Epoch = 101 Count = 400 Current_Loss = 0.0263 Time = 1.16
+[2019-05-09 14:05:19] Epoch = 101 Count = 440 Current_Loss = 0.0246 Time = 1.16
+[2019-05-09 14:05:20] Epoch = 101 Count = 480 Current_Loss = 0.0234 Time = 1.19
+[2019-05-09 14:05:21] Epoch = 101 Count = 520 Current_Loss = 0.0158 Time = 1.19
+[2019-05-09 14:05:23] Epoch = 101 Count = 560 Current_Loss = 0.0202 Time = 1.19
+[2019-05-09 14:05:24] Epoch = 101 Count = 600 Current_Loss = 0.0126 Time = 1.20
+[2019-05-09 14:05:25] Epoch = 101 Count = 640 Current_Loss = 0.0261 Time = 1.19
+[2019-05-09 14:05:26] Epoch = 101 Count = 680 Current_Loss = 0.0214 Time = 1.19
+[2019-05-09 14:05:27] Epoch = 101 Count = 720 Current_Loss = 0.0180 Time = 1.18
+[2019-05-09 14:05:28] Epoch = 101 Count = 760 Current_Loss = 0.0139 Time = 1.19
+[2019-05-09 14:05:30] Epoch = 101 Count = 800 Current_Loss = 0.0211 Time = 1.18
+[2019-05-09 14:05:31] Epoch = 101 Count = 840 Current_Loss = 0.0206 Time = 1.18
+[2019-05-09 14:05:32] Epoch = 101 Count = 880 Current_Loss = 0.0113 Time = 1.18
+[2019-05-09 14:05:33] Epoch = 101 Count = 920 Current_Loss = 0.0190 Time = 1.18
+[2019-05-09 14:05:34] Epoch = 101 Count = 960 Current_Loss = 0.0183 Time = 1.19
+[2019-05-09 14:05:36] Epoch = 101 Count = 1000 Current_Loss = 0.0172 Time = 1.19
+[2019-05-09 14:05:37] Epoch = 101 Count = 1040 Current_Loss = 0.0185 Time = 1.19
+[2019-05-09 14:05:38] Epoch = 101 Count = 1080 Current_Loss = 0.0193 Time = 1.19
+[2019-05-09 14:05:39] Epoch = 101 Count = 1120 Current_Loss = 0.0167 Time = 1.20
+[2019-05-09 14:05:40] Epoch = 101 Count = 1160 Current_Loss = 0.0148 Time = 1.21
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0101 = 0.987607
+Average per class validation accuracies for epoch # 0101:
+Background = 0.994395
+RainCloud = 0.851744
+Validation precision =  0.9882414345877635
+Validation recall =  0.987606702532087
+Validation F1 score =  0.987482650276814
+Validation IoU score =  0.8360307930793944
+[2019-05-09 14:05:57] Remaining training time = 0 hours 15 minutes 9 seconds
+
+[2019-05-09 14:05:58] Epoch = 102 Count = 40 Current_Loss = 0.0139 Time = 1.17
+[2019-05-09 14:05:59] Epoch = 102 Count = 80 Current_Loss = 0.0241 Time = 1.17
+[2019-05-09 14:06:01] Epoch = 102 Count = 120 Current_Loss = 0.0220 Time = 1.16
+[2019-05-09 14:06:02] Epoch = 102 Count = 160 Current_Loss = 0.0144 Time = 1.15
+[2019-05-09 14:06:03] Epoch = 102 Count = 200 Current_Loss = 0.0222 Time = 1.16
+[2019-05-09 14:06:04] Epoch = 102 Count = 240 Current_Loss = 0.0192 Time = 1.15
+[2019-05-09 14:06:05] Epoch = 102 Count = 280 Current_Loss = 0.0207 Time = 1.15
+[2019-05-09 14:06:06] Epoch = 102 Count = 320 Current_Loss = 0.0171 Time = 1.15
+[2019-05-09 14:06:07] Epoch = 102 Count = 360 Current_Loss = 0.0273 Time = 1.16
+[2019-05-09 14:06:09] Epoch = 102 Count = 400 Current_Loss = 0.0128 Time = 1.15
+[2019-05-09 14:06:10] Epoch = 102 Count = 440 Current_Loss = 0.0164 Time = 1.15
+[2019-05-09 14:06:11] Epoch = 102 Count = 480 Current_Loss = 0.0183 Time = 1.15
+[2019-05-09 14:06:12] Epoch = 102 Count = 520 Current_Loss = 0.0171 Time = 1.15
+[2019-05-09 14:06:13] Epoch = 102 Count = 560 Current_Loss = 0.0181 Time = 1.16
+[2019-05-09 14:06:14] Epoch = 102 Count = 600 Current_Loss = 0.0150 Time = 1.15
+[2019-05-09 14:06:16] Epoch = 102 Count = 640 Current_Loss = 0.0150 Time = 1.16
+[2019-05-09 14:06:17] Epoch = 102 Count = 680 Current_Loss = 0.0152 Time = 1.16
+[2019-05-09 14:06:18] Epoch = 102 Count = 720 Current_Loss = 0.0164 Time = 1.15
+[2019-05-09 14:06:19] Epoch = 102 Count = 760 Current_Loss = 0.0148 Time = 1.16
+[2019-05-09 14:06:20] Epoch = 102 Count = 800 Current_Loss = 0.0149 Time = 1.16
+[2019-05-09 14:06:21] Epoch = 102 Count = 840 Current_Loss = 0.0087 Time = 1.16
+[2019-05-09 14:06:22] Epoch = 102 Count = 880 Current_Loss = 0.0215 Time = 1.16
+[2019-05-09 14:06:24] Epoch = 102 Count = 920 Current_Loss = 0.0164 Time = 1.16
+[2019-05-09 14:06:25] Epoch = 102 Count = 960 Current_Loss = 0.0179 Time = 1.16
+[2019-05-09 14:06:26] Epoch = 102 Count = 1000 Current_Loss = 0.0218 Time = 1.16
+[2019-05-09 14:06:27] Epoch = 102 Count = 1040 Current_Loss = 0.0165 Time = 1.19
+[2019-05-09 14:06:28] Epoch = 102 Count = 1080 Current_Loss = 0.0183 Time = 1.17
+[2019-05-09 14:06:29] Epoch = 102 Count = 1120 Current_Loss = 0.0188 Time = 1.15
+[2019-05-09 14:06:31] Epoch = 102 Count = 1160 Current_Loss = 0.0190 Time = 1.16
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0102 = 0.987864
+Average per class validation accuracies for epoch # 0102:
+Background = 0.994537
+RainCloud = 0.855032
+Validation precision =  0.9885027393340355
+Validation recall =  0.9878641401018415
+Validation F1 score =  0.9877614825320379
+Validation IoU score =  0.8391103936354114
+[2019-05-09 14:06:47] Remaining training time = 0 hours 14 minutes 2 seconds
+
+[2019-05-09 14:06:48] Epoch = 103 Count = 40 Current_Loss = 0.0138 Time = 1.16
+[2019-05-09 14:06:49] Epoch = 103 Count = 80 Current_Loss = 0.0160 Time = 1.15
+[2019-05-09 14:06:50] Epoch = 103 Count = 120 Current_Loss = 0.0143 Time = 1.15
+[2019-05-09 14:06:51] Epoch = 103 Count = 160 Current_Loss = 0.0183 Time = 1.15
+[2019-05-09 14:06:53] Epoch = 103 Count = 200 Current_Loss = 0.0204 Time = 1.15
+[2019-05-09 14:06:54] Epoch = 103 Count = 240 Current_Loss = 0.0225 Time = 1.15
+[2019-05-09 14:06:55] Epoch = 103 Count = 280 Current_Loss = 0.0136 Time = 1.15
+[2019-05-09 14:06:56] Epoch = 103 Count = 320 Current_Loss = 0.0167 Time = 1.16
+[2019-05-09 14:06:57] Epoch = 103 Count = 360 Current_Loss = 0.0151 Time = 1.17
+[2019-05-09 14:06:58] Epoch = 103 Count = 400 Current_Loss = 0.0139 Time = 1.19
+[2019-05-09 14:07:00] Epoch = 103 Count = 440 Current_Loss = 0.0298 Time = 1.20
+[2019-05-09 14:07:01] Epoch = 103 Count = 480 Current_Loss = 0.0172 Time = 1.16
+[2019-05-09 14:07:02] Epoch = 103 Count = 520 Current_Loss = 0.0156 Time = 1.18
+[2019-05-09 14:07:03] Epoch = 103 Count = 560 Current_Loss = 0.0150 Time = 1.15
+[2019-05-09 14:07:04] Epoch = 103 Count = 600 Current_Loss = 0.0169 Time = 1.15
+[2019-05-09 14:07:05] Epoch = 103 Count = 640 Current_Loss = 0.0158 Time = 1.17
+[2019-05-09 14:07:07] Epoch = 103 Count = 680 Current_Loss = 0.0125 Time = 1.15
+[2019-05-09 14:07:08] Epoch = 103 Count = 720 Current_Loss = 0.0210 Time = 1.19
+[2019-05-09 14:07:09] Epoch = 103 Count = 760 Current_Loss = 0.0135 Time = 1.21
+[2019-05-09 14:07:10] Epoch = 103 Count = 800 Current_Loss = 0.0182 Time = 1.17
+[2019-05-09 14:07:11] Epoch = 103 Count = 840 Current_Loss = 0.0145 Time = 1.16
+[2019-05-09 14:07:12] Epoch = 103 Count = 880 Current_Loss = 0.0204 Time = 1.16
+[2019-05-09 14:07:14] Epoch = 103 Count = 920 Current_Loss = 0.0155 Time = 1.20
+[2019-05-09 14:07:15] Epoch = 103 Count = 960 Current_Loss = 0.0146 Time = 1.24
+[2019-05-09 14:07:16] Epoch = 103 Count = 1000 Current_Loss = 0.0146 Time = 1.19
+[2019-05-09 14:07:17] Epoch = 103 Count = 1040 Current_Loss = 0.0150 Time = 1.19
+[2019-05-09 14:07:18] Epoch = 103 Count = 1080 Current_Loss = 0.0169 Time = 1.16
+[2019-05-09 14:07:20] Epoch = 103 Count = 1120 Current_Loss = 0.0163 Time = 1.16
+[2019-05-09 14:07:21] Epoch = 103 Count = 1160 Current_Loss = 0.0134 Time = 1.17
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0103 = 0.988010
+Average per class validation accuracies for epoch # 0103:
+Background = 0.995386
+RainCloud = 0.834801
+Validation precision =  0.9888795707661069
+Validation recall =  0.9880100795200892
+Validation F1 score =  0.9880768624962256
+Validation IoU score =  0.8397308899435265
+[2019-05-09 14:07:37] Remaining training time = 0 hours 13 minutes 26 seconds
+
+[2019-05-09 14:07:39] Epoch = 104 Count = 40 Current_Loss = 0.0188 Time = 1.19
+[2019-05-09 14:07:40] Epoch = 104 Count = 80 Current_Loss = 0.0161 Time = 1.15
+[2019-05-09 14:07:41] Epoch = 104 Count = 120 Current_Loss = 0.0215 Time = 1.19
+[2019-05-09 14:07:42] Epoch = 104 Count = 160 Current_Loss = 0.0191 Time = 1.18
+[2019-05-09 14:07:43] Epoch = 104 Count = 200 Current_Loss = 0.0150 Time = 1.15
+[2019-05-09 14:07:44] Epoch = 104 Count = 240 Current_Loss = 0.0188 Time = 1.16
+[2019-05-09 14:07:46] Epoch = 104 Count = 280 Current_Loss = 0.0135 Time = 1.15
+[2019-05-09 14:07:47] Epoch = 104 Count = 320 Current_Loss = 0.0188 Time = 1.16
+[2019-05-09 14:07:48] Epoch = 104 Count = 360 Current_Loss = 0.0159 Time = 1.17
+[2019-05-09 14:07:49] Epoch = 104 Count = 400 Current_Loss = 0.0175 Time = 1.17
+[2019-05-09 14:07:50] Epoch = 104 Count = 440 Current_Loss = 0.0133 Time = 1.16
+[2019-05-09 14:07:51] Epoch = 104 Count = 480 Current_Loss = 0.0176 Time = 1.16
+[2019-05-09 14:07:53] Epoch = 104 Count = 520 Current_Loss = 0.0158 Time = 1.15
+[2019-05-09 14:07:54] Epoch = 104 Count = 560 Current_Loss = 0.0149 Time = 1.15
+[2019-05-09 14:07:55] Epoch = 104 Count = 600 Current_Loss = 0.0226 Time = 1.16
+[2019-05-09 14:07:56] Epoch = 104 Count = 640 Current_Loss = 0.0182 Time = 1.23
+[2019-05-09 14:07:57] Epoch = 104 Count = 680 Current_Loss = 0.0126 Time = 1.23
+[2019-05-09 14:07:59] Epoch = 104 Count = 720 Current_Loss = 0.0127 Time = 1.21
+[2019-05-09 14:08:00] Epoch = 104 Count = 760 Current_Loss = 0.0208 Time = 1.18
+[2019-05-09 14:08:01] Epoch = 104 Count = 800 Current_Loss = 0.0172 Time = 1.16
+[2019-05-09 14:08:02] Epoch = 104 Count = 840 Current_Loss = 0.0257 Time = 1.17
+[2019-05-09 14:08:03] Epoch = 104 Count = 880 Current_Loss = 0.0146 Time = 1.18
+[2019-05-09 14:08:04] Epoch = 104 Count = 920 Current_Loss = 0.0152 Time = 1.16
+[2019-05-09 14:08:06] Epoch = 104 Count = 960 Current_Loss = 0.0237 Time = 1.17
+[2019-05-09 14:08:07] Epoch = 104 Count = 1000 Current_Loss = 0.0206 Time = 1.21
+[2019-05-09 14:08:08] Epoch = 104 Count = 1040 Current_Loss = 0.0238 Time = 1.18
+[2019-05-09 14:08:09] Epoch = 104 Count = 1080 Current_Loss = 0.0136 Time = 1.20
+[2019-05-09 14:08:10] Epoch = 104 Count = 1120 Current_Loss = 0.0169 Time = 1.20
+[2019-05-09 14:08:11] Epoch = 104 Count = 1160 Current_Loss = 0.0175 Time = 1.18
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0104 = 0.987819
+Average per class validation accuracies for epoch # 0104:
+Background = 0.994612
+RainCloud = 0.851865
+Validation precision =  0.9884869289393557
+Validation recall =  0.9878191266741071
+Validation F1 score =  0.9877434827143873
+Validation IoU score =  0.8388538107096078
+[2019-05-09 14:08:28] Remaining training time = 0 hours 12 minutes 33 seconds
+
+[2019-05-09 14:08:29] Epoch = 105 Count = 40 Current_Loss = 0.0223 Time = 1.19
+[2019-05-09 14:08:30] Epoch = 105 Count = 80 Current_Loss = 0.0150 Time = 1.20
+[2019-05-09 14:08:31] Epoch = 105 Count = 120 Current_Loss = 0.0167 Time = 1.17
+[2019-05-09 14:08:33] Epoch = 105 Count = 160 Current_Loss = 0.0131 Time = 1.17
+[2019-05-09 14:08:34] Epoch = 105 Count = 200 Current_Loss = 0.0161 Time = 1.19
+[2019-05-09 14:08:35] Epoch = 105 Count = 240 Current_Loss = 0.0218 Time = 1.19
+[2019-05-09 14:08:36] Epoch = 105 Count = 280 Current_Loss = 0.0177 Time = 1.18
+[2019-05-09 14:08:37] Epoch = 105 Count = 320 Current_Loss = 0.0183 Time = 1.18
+[2019-05-09 14:08:38] Epoch = 105 Count = 360 Current_Loss = 0.0186 Time = 1.15
+[2019-05-09 14:08:40] Epoch = 105 Count = 400 Current_Loss = 0.0230 Time = 1.19
+[2019-05-09 14:08:41] Epoch = 105 Count = 440 Current_Loss = 0.0189 Time = 1.16
+[2019-05-09 14:08:42] Epoch = 105 Count = 480 Current_Loss = 0.0161 Time = 1.19
+[2019-05-09 14:08:43] Epoch = 105 Count = 520 Current_Loss = 0.0148 Time = 1.21
+[2019-05-09 14:08:44] Epoch = 105 Count = 560 Current_Loss = 0.0178 Time = 1.16
+[2019-05-09 14:08:46] Epoch = 105 Count = 600 Current_Loss = 0.0185 Time = 1.19
+[2019-05-09 14:08:47] Epoch = 105 Count = 640 Current_Loss = 0.0101 Time = 1.17
+[2019-05-09 14:08:48] Epoch = 105 Count = 680 Current_Loss = 0.0164 Time = 1.19
+[2019-05-09 14:08:49] Epoch = 105 Count = 720 Current_Loss = 0.0155 Time = 1.18
+[2019-05-09 14:08:50] Epoch = 105 Count = 760 Current_Loss = 0.0194 Time = 1.19
+[2019-05-09 14:08:51] Epoch = 105 Count = 800 Current_Loss = 0.0128 Time = 1.19
+[2019-05-09 14:08:53] Epoch = 105 Count = 840 Current_Loss = 0.0188 Time = 1.18
+[2019-05-09 14:08:54] Epoch = 105 Count = 880 Current_Loss = 0.0144 Time = 1.19
+[2019-05-09 14:08:55] Epoch = 105 Count = 920 Current_Loss = 0.0138 Time = 1.16
+[2019-05-09 14:08:56] Epoch = 105 Count = 960 Current_Loss = 0.0158 Time = 1.18
+[2019-05-09 14:08:57] Epoch = 105 Count = 1000 Current_Loss = 0.0267 Time = 1.16
+[2019-05-09 14:08:58] Epoch = 105 Count = 1040 Current_Loss = 0.0208 Time = 1.15
+[2019-05-09 14:09:00] Epoch = 105 Count = 1080 Current_Loss = 0.0143 Time = 1.16
+[2019-05-09 14:09:01] Epoch = 105 Count = 1120 Current_Loss = 0.0152 Time = 1.16
+[2019-05-09 14:09:02] Epoch = 105 Count = 1160 Current_Loss = 0.0182 Time = 1.15
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0105 = 0.987999
+Average per class validation accuracies for epoch # 0105:
+Background = 0.995493
+RainCloud = 0.832713
+Validation precision =  0.9889012905094063
+Validation recall =  0.9879986354282924
+Validation F1 score =  0.988093970311769
+Validation IoU score =  0.8404835964995426
+[2019-05-09 14:09:18] Remaining training time = 0 hours 11 minutes 40 seconds
+
+[2019-05-09 14:09:19] Epoch = 106 Count = 40 Current_Loss = 0.0158 Time = 1.21
+[2019-05-09 14:09:20] Epoch = 106 Count = 80 Current_Loss = 0.0183 Time = 1.15
+[2019-05-09 14:09:22] Epoch = 106 Count = 120 Current_Loss = 0.0214 Time = 1.16
+[2019-05-09 14:09:23] Epoch = 106 Count = 160 Current_Loss = 0.0172 Time = 1.15
+[2019-05-09 14:09:24] Epoch = 106 Count = 200 Current_Loss = 0.0178 Time = 1.16
+[2019-05-09 14:09:25] Epoch = 106 Count = 240 Current_Loss = 0.0179 Time = 1.22
+[2019-05-09 14:09:26] Epoch = 106 Count = 280 Current_Loss = 0.0213 Time = 1.18
+[2019-05-09 14:09:28] Epoch = 106 Count = 320 Current_Loss = 0.0189 Time = 1.19
+[2019-05-09 14:09:29] Epoch = 106 Count = 360 Current_Loss = 0.0144 Time = 1.22
+[2019-05-09 14:09:30] Epoch = 106 Count = 400 Current_Loss = 0.0116 Time = 1.17
+[2019-05-09 14:09:31] Epoch = 106 Count = 440 Current_Loss = 0.0189 Time = 1.15
+[2019-05-09 14:09:32] Epoch = 106 Count = 480 Current_Loss = 0.0157 Time = 1.16
+[2019-05-09 14:09:33] Epoch = 106 Count = 520 Current_Loss = 0.0198 Time = 1.16
+[2019-05-09 14:09:35] Epoch = 106 Count = 560 Current_Loss = 0.0169 Time = 1.15
+[2019-05-09 14:09:36] Epoch = 106 Count = 600 Current_Loss = 0.0215 Time = 1.16
+[2019-05-09 14:09:37] Epoch = 106 Count = 640 Current_Loss = 0.0200 Time = 1.16
+[2019-05-09 14:09:38] Epoch = 106 Count = 680 Current_Loss = 0.0201 Time = 1.17
+[2019-05-09 14:09:39] Epoch = 106 Count = 720 Current_Loss = 0.0147 Time = 1.18
+[2019-05-09 14:09:40] Epoch = 106 Count = 760 Current_Loss = 0.0163 Time = 1.24
+[2019-05-09 14:09:42] Epoch = 106 Count = 800 Current_Loss = 0.0155 Time = 1.23
+[2019-05-09 14:09:43] Epoch = 106 Count = 840 Current_Loss = 0.0160 Time = 1.20
+[2019-05-09 14:09:44] Epoch = 106 Count = 880 Current_Loss = 0.0140 Time = 1.25
+[2019-05-09 14:09:45] Epoch = 106 Count = 920 Current_Loss = 0.0240 Time = 1.21
+[2019-05-09 14:09:46] Epoch = 106 Count = 960 Current_Loss = 0.0210 Time = 1.15
+[2019-05-09 14:09:48] Epoch = 106 Count = 1000 Current_Loss = 0.0165 Time = 1.20
+[2019-05-09 14:09:49] Epoch = 106 Count = 1040 Current_Loss = 0.0196 Time = 1.18
+[2019-05-09 14:09:50] Epoch = 106 Count = 1080 Current_Loss = 0.0209 Time = 1.20
+[2019-05-09 14:09:51] Epoch = 106 Count = 1120 Current_Loss = 0.0197 Time = 1.22
+[2019-05-09 14:09:52] Epoch = 106 Count = 1160 Current_Loss = 0.0196 Time = 1.20
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0106 = 0.987577
+Average per class validation accuracies for epoch # 0106:
+Background = 0.995365
+RainCloud = 0.824884
+Validation precision =  0.9885823296704342
+Validation recall =  0.9875770568847656
+Validation F1 score =  0.9876669372995212
+Validation IoU score =  0.8352211561261865
+[2019-05-09 14:10:09] Remaining training time = 0 hours 10 minutes 58 seconds
+
+[2019-05-09 14:10:10] Epoch = 107 Count = 40 Current_Loss = 0.0205 Time = 1.18
+[2019-05-09 14:10:11] Epoch = 107 Count = 80 Current_Loss = 0.0158 Time = 1.16
+[2019-05-09 14:10:13] Epoch = 107 Count = 120 Current_Loss = 0.0252 Time = 1.15
+[2019-05-09 14:10:14] Epoch = 107 Count = 160 Current_Loss = 0.0173 Time = 1.15
+[2019-05-09 14:10:15] Epoch = 107 Count = 200 Current_Loss = 0.0142 Time = 1.18
+[2019-05-09 14:10:16] Epoch = 107 Count = 240 Current_Loss = 0.0118 Time = 1.20
+[2019-05-09 14:10:17] Epoch = 107 Count = 280 Current_Loss = 0.0203 Time = 1.21
+[2019-05-09 14:10:18] Epoch = 107 Count = 320 Current_Loss = 0.0137 Time = 1.17
+[2019-05-09 14:10:20] Epoch = 107 Count = 360 Current_Loss = 0.0124 Time = 1.18
+[2019-05-09 14:10:21] Epoch = 107 Count = 400 Current_Loss = 0.0143 Time = 1.19
+[2019-05-09 14:10:22] Epoch = 107 Count = 440 Current_Loss = 0.0151 Time = 1.19
+[2019-05-09 14:10:23] Epoch = 107 Count = 480 Current_Loss = 0.0161 Time = 1.20
+[2019-05-09 14:10:24] Epoch = 107 Count = 520 Current_Loss = 0.0170 Time = 1.20
+[2019-05-09 14:10:26] Epoch = 107 Count = 560 Current_Loss = 0.0104 Time = 1.22
+[2019-05-09 14:10:27] Epoch = 107 Count = 600 Current_Loss = 0.0158 Time = 1.21
+[2019-05-09 14:10:28] Epoch = 107 Count = 640 Current_Loss = 0.0177 Time = 1.20
+[2019-05-09 14:10:29] Epoch = 107 Count = 680 Current_Loss = 0.0154 Time = 1.22
+[2019-05-09 14:10:30] Epoch = 107 Count = 720 Current_Loss = 0.0171 Time = 1.22
+[2019-05-09 14:10:32] Epoch = 107 Count = 760 Current_Loss = 0.0071 Time = 1.19
+[2019-05-09 14:10:33] Epoch = 107 Count = 800 Current_Loss = 0.0131 Time = 1.21
+[2019-05-09 14:10:34] Epoch = 107 Count = 840 Current_Loss = 0.0169 Time = 1.15
+[2019-05-09 14:10:35] Epoch = 107 Count = 880 Current_Loss = 0.0161 Time = 1.15
+[2019-05-09 14:10:36] Epoch = 107 Count = 920 Current_Loss = 0.0159 Time = 1.15
+[2019-05-09 14:10:37] Epoch = 107 Count = 960 Current_Loss = 0.0216 Time = 1.18
+[2019-05-09 14:10:39] Epoch = 107 Count = 1000 Current_Loss = 0.0108 Time = 1.18
+[2019-05-09 14:10:40] Epoch = 107 Count = 1040 Current_Loss = 0.0181 Time = 1.19
+[2019-05-09 14:10:41] Epoch = 107 Count = 1080 Current_Loss = 0.0170 Time = 1.21
+[2019-05-09 14:10:42] Epoch = 107 Count = 1120 Current_Loss = 0.0168 Time = 1.20
+[2019-05-09 14:10:43] Epoch = 107 Count = 1160 Current_Loss = 0.0206 Time = 1.21
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0107 = 0.987914
+Average per class validation accuracies for epoch # 0107:
+Background = 0.994565
+RainCloud = 0.855505
+Validation precision =  0.9885494937264452
+Validation recall =  0.9879141671316964
+Validation F1 score =  0.9878133108752857
+Validation IoU score =  0.8393471353141392
+[2019-05-09 14:11:00] Remaining training time = 0 hours 10 minutes 8 seconds
+
+[2019-05-09 14:11:01] Epoch = 108 Count = 40 Current_Loss = 0.0138 Time = 1.18
+[2019-05-09 14:11:02] Epoch = 108 Count = 80 Current_Loss = 0.0208 Time = 1.16
+[2019-05-09 14:11:03] Epoch = 108 Count = 120 Current_Loss = 0.0161 Time = 1.15
+[2019-05-09 14:11:05] Epoch = 108 Count = 160 Current_Loss = 0.0161 Time = 1.20
+[2019-05-09 14:11:06] Epoch = 108 Count = 200 Current_Loss = 0.0147 Time = 1.15
+[2019-05-09 14:11:07] Epoch = 108 Count = 240 Current_Loss = 0.0202 Time = 1.17
+[2019-05-09 14:11:08] Epoch = 108 Count = 280 Current_Loss = 0.0134 Time = 1.21
+[2019-05-09 14:11:09] Epoch = 108 Count = 320 Current_Loss = 0.0185 Time = 1.16
+[2019-05-09 14:11:11] Epoch = 108 Count = 360 Current_Loss = 0.0237 Time = 1.16
+[2019-05-09 14:11:12] Epoch = 108 Count = 400 Current_Loss = 0.0248 Time = 1.16
+[2019-05-09 14:11:13] Epoch = 108 Count = 440 Current_Loss = 0.0200 Time = 1.17
+[2019-05-09 14:11:14] Epoch = 108 Count = 480 Current_Loss = 0.0171 Time = 1.16
+[2019-05-09 14:11:15] Epoch = 108 Count = 520 Current_Loss = 0.0166 Time = 1.16
+[2019-05-09 14:11:16] Epoch = 108 Count = 560 Current_Loss = 0.0234 Time = 1.17
+[2019-05-09 14:11:18] Epoch = 108 Count = 600 Current_Loss = 0.0135 Time = 1.16
+[2019-05-09 14:11:19] Epoch = 108 Count = 640 Current_Loss = 0.0152 Time = 1.22
+[2019-05-09 14:11:20] Epoch = 108 Count = 680 Current_Loss = 0.0147 Time = 1.20
+[2019-05-09 14:11:21] Epoch = 108 Count = 720 Current_Loss = 0.0189 Time = 1.16
+[2019-05-09 14:11:22] Epoch = 108 Count = 760 Current_Loss = 0.0130 Time = 1.18
+[2019-05-09 14:11:23] Epoch = 108 Count = 800 Current_Loss = 0.0175 Time = 1.19
+[2019-05-09 14:11:25] Epoch = 108 Count = 840 Current_Loss = 0.0140 Time = 1.19
+[2019-05-09 14:11:26] Epoch = 108 Count = 880 Current_Loss = 0.0263 Time = 1.19
+[2019-05-09 14:11:27] Epoch = 108 Count = 920 Current_Loss = 0.0137 Time = 1.17
+[2019-05-09 14:11:28] Epoch = 108 Count = 960 Current_Loss = 0.0140 Time = 1.17
+[2019-05-09 14:11:29] Epoch = 108 Count = 1000 Current_Loss = 0.0242 Time = 1.16
+[2019-05-09 14:11:31] Epoch = 108 Count = 1040 Current_Loss = 0.0146 Time = 1.17
+[2019-05-09 14:11:32] Epoch = 108 Count = 1080 Current_Loss = 0.0180 Time = 1.16
+[2019-05-09 14:11:33] Epoch = 108 Count = 1120 Current_Loss = 0.0179 Time = 1.21
+[2019-05-09 14:11:34] Epoch = 108 Count = 1160 Current_Loss = 0.0129 Time = 1.16
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0108 = 0.987507
+Average per class validation accuracies for epoch # 0108:
+Background = 0.994485
+RainCloud = 0.847240
+Validation precision =  0.9882026158034413
+Validation recall =  0.9875067574637276
+Validation F1 score =  0.9874024491581311
+Validation IoU score =  0.8345606666096139
+[2019-05-09 14:11:50] Remaining training time = 0 hours 9 minutes 9 seconds
+
+[2019-05-09 14:11:51] Epoch = 109 Count = 40 Current_Loss = 0.0166 Time = 1.16
+[2019-05-09 14:11:52] Epoch = 109 Count = 80 Current_Loss = 0.0130 Time = 1.15
+[2019-05-09 14:11:54] Epoch = 109 Count = 120 Current_Loss = 0.0111 Time = 1.15
+[2019-05-09 14:11:55] Epoch = 109 Count = 160 Current_Loss = 0.0146 Time = 1.14
+[2019-05-09 14:11:56] Epoch = 109 Count = 200 Current_Loss = 0.0165 Time = 1.14
+[2019-05-09 14:11:57] Epoch = 109 Count = 240 Current_Loss = 0.0207 Time = 1.15
+[2019-05-09 14:11:58] Epoch = 109 Count = 280 Current_Loss = 0.0205 Time = 1.15
+[2019-05-09 14:11:59] Epoch = 109 Count = 320 Current_Loss = 0.0213 Time = 1.15
+[2019-05-09 14:12:01] Epoch = 109 Count = 360 Current_Loss = 0.0131 Time = 1.15
+[2019-05-09 14:12:02] Epoch = 109 Count = 400 Current_Loss = 0.0147 Time = 1.16
+[2019-05-09 14:12:03] Epoch = 109 Count = 440 Current_Loss = 0.0226 Time = 1.16
+[2019-05-09 14:12:04] Epoch = 109 Count = 480 Current_Loss = 0.0268 Time = 1.16
+[2019-05-09 14:12:05] Epoch = 109 Count = 520 Current_Loss = 0.0177 Time = 1.16
+[2019-05-09 14:12:06] Epoch = 109 Count = 560 Current_Loss = 0.0166 Time = 1.15
+[2019-05-09 14:12:07] Epoch = 109 Count = 600 Current_Loss = 0.0178 Time = 1.16
+[2019-05-09 14:12:09] Epoch = 109 Count = 640 Current_Loss = 0.0141 Time = 1.15
+[2019-05-09 14:12:10] Epoch = 109 Count = 680 Current_Loss = 0.0161 Time = 1.16
+[2019-05-09 14:12:11] Epoch = 109 Count = 720 Current_Loss = 0.0176 Time = 1.16
+[2019-05-09 14:12:12] Epoch = 109 Count = 760 Current_Loss = 0.0157 Time = 1.15
+[2019-05-09 14:12:13] Epoch = 109 Count = 800 Current_Loss = 0.0226 Time = 1.15
+[2019-05-09 14:12:14] Epoch = 109 Count = 840 Current_Loss = 0.0190 Time = 1.15
+[2019-05-09 14:12:16] Epoch = 109 Count = 880 Current_Loss = 0.0192 Time = 1.16
+[2019-05-09 14:12:17] Epoch = 109 Count = 920 Current_Loss = 0.0127 Time = 1.16
+[2019-05-09 14:12:18] Epoch = 109 Count = 960 Current_Loss = 0.0194 Time = 1.16
+[2019-05-09 14:12:19] Epoch = 109 Count = 1000 Current_Loss = 0.0167 Time = 1.17
+[2019-05-09 14:12:20] Epoch = 109 Count = 1040 Current_Loss = 0.0264 Time = 1.15
+[2019-05-09 14:12:21] Epoch = 109 Count = 1080 Current_Loss = 0.0197 Time = 1.15
+[2019-05-09 14:12:23] Epoch = 109 Count = 1120 Current_Loss = 0.0132 Time = 1.16
+[2019-05-09 14:12:24] Epoch = 109 Count = 1160 Current_Loss = 0.0157 Time = 1.17
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0109 = 0.988087
+Average per class validation accuracies for epoch # 0109:
+Background = 0.995834
+RainCloud = 0.825231
+Validation precision =  0.9891125697808044
+Validation recall =  0.9880867004394531
+Validation F1 score =  0.9882452860660432
+Validation IoU score =  0.8414149682588421
+[2019-05-09 14:12:40] Remaining training time = 0 hours 8 minutes 16 seconds
+
+[2019-05-09 14:12:41] Epoch = 110 Count = 40 Current_Loss = 0.0176 Time = 1.16
+[2019-05-09 14:12:42] Epoch = 110 Count = 80 Current_Loss = 0.0117 Time = 1.15
+[2019-05-09 14:12:43] Epoch = 110 Count = 120 Current_Loss = 0.0214 Time = 1.15
+[2019-05-09 14:12:45] Epoch = 110 Count = 160 Current_Loss = 0.0201 Time = 1.15
+[2019-05-09 14:12:46] Epoch = 110 Count = 200 Current_Loss = 0.0156 Time = 1.15
+[2019-05-09 14:12:47] Epoch = 110 Count = 240 Current_Loss = 0.0101 Time = 1.16
+[2019-05-09 14:12:48] Epoch = 110 Count = 280 Current_Loss = 0.0162 Time = 1.21
+[2019-05-09 14:12:49] Epoch = 110 Count = 320 Current_Loss = 0.0213 Time = 1.23
+[2019-05-09 14:12:51] Epoch = 110 Count = 360 Current_Loss = 0.0155 Time = 1.22
+[2019-05-09 14:12:52] Epoch = 110 Count = 400 Current_Loss = 0.0133 Time = 1.16
+[2019-05-09 14:12:53] Epoch = 110 Count = 440 Current_Loss = 0.0150 Time = 1.16
+[2019-05-09 14:12:54] Epoch = 110 Count = 480 Current_Loss = 0.0123 Time = 1.16
+[2019-05-09 14:12:55] Epoch = 110 Count = 520 Current_Loss = 0.0167 Time = 1.17
+[2019-05-09 14:12:56] Epoch = 110 Count = 560 Current_Loss = 0.0160 Time = 1.17
+[2019-05-09 14:12:58] Epoch = 110 Count = 600 Current_Loss = 0.0152 Time = 1.15
+[2019-05-09 14:12:59] Epoch = 110 Count = 640 Current_Loss = 0.0200 Time = 1.16
+[2019-05-09 14:13:00] Epoch = 110 Count = 680 Current_Loss = 0.0237 Time = 1.18
+[2019-05-09 14:13:01] Epoch = 110 Count = 720 Current_Loss = 0.0147 Time = 1.17
+[2019-05-09 14:13:02] Epoch = 110 Count = 760 Current_Loss = 0.0175 Time = 1.17
+[2019-05-09 14:13:03] Epoch = 110 Count = 800 Current_Loss = 0.0138 Time = 1.17
+[2019-05-09 14:13:05] Epoch = 110 Count = 840 Current_Loss = 0.0176 Time = 1.17
+[2019-05-09 14:13:06] Epoch = 110 Count = 880 Current_Loss = 0.0171 Time = 1.17
+[2019-05-09 14:13:07] Epoch = 110 Count = 920 Current_Loss = 0.0198 Time = 1.17
+[2019-05-09 14:13:08] Epoch = 110 Count = 960 Current_Loss = 0.0247 Time = 1.17
+[2019-05-09 14:13:09] Epoch = 110 Count = 1000 Current_Loss = 0.0157 Time = 1.17
+[2019-05-09 14:13:10] Epoch = 110 Count = 1040 Current_Loss = 0.0187 Time = 1.17
+[2019-05-09 14:13:12] Epoch = 110 Count = 1080 Current_Loss = 0.0262 Time = 1.17
+[2019-05-09 14:13:13] Epoch = 110 Count = 1120 Current_Loss = 0.0109 Time = 1.16
+[2019-05-09 14:13:14] Epoch = 110 Count = 1160 Current_Loss = 0.0214 Time = 1.16
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0110 = 0.988132
+Average per class validation accuracies for epoch # 0110:
+Background = 0.994683
+RainCloud = 0.852005
+Validation precision =  0.9887070020022288
+Validation recall =  0.9881323678152901
+Validation F1 score =  0.9880657796225575
+Validation IoU score =  0.8410451031608044
+[2019-05-09 14:13:30] Remaining training time = 0 hours 7 minutes 29 seconds
+
+[2019-05-09 14:13:31] Epoch = 111 Count = 40 Current_Loss = 0.0209 Time = 1.17
+[2019-05-09 14:13:33] Epoch = 111 Count = 80 Current_Loss = 0.0224 Time = 1.16
+[2019-05-09 14:13:34] Epoch = 111 Count = 120 Current_Loss = 0.0182 Time = 1.19
+[2019-05-09 14:13:35] Epoch = 111 Count = 160 Current_Loss = 0.0158 Time = 1.18
+[2019-05-09 14:13:36] Epoch = 111 Count = 200 Current_Loss = 0.0167 Time = 1.16
+[2019-05-09 14:13:37] Epoch = 111 Count = 240 Current_Loss = 0.0133 Time = 1.16
+[2019-05-09 14:13:38] Epoch = 111 Count = 280 Current_Loss = 0.0161 Time = 1.18
+[2019-05-09 14:13:40] Epoch = 111 Count = 320 Current_Loss = 0.0176 Time = 1.18
+[2019-05-09 14:13:41] Epoch = 111 Count = 360 Current_Loss = 0.0180 Time = 1.17
+[2019-05-09 14:13:42] Epoch = 111 Count = 400 Current_Loss = 0.0157 Time = 1.16
+[2019-05-09 14:13:43] Epoch = 111 Count = 440 Current_Loss = 0.0163 Time = 1.16
+[2019-05-09 14:13:44] Epoch = 111 Count = 480 Current_Loss = 0.0183 Time = 1.16
+[2019-05-09 14:13:45] Epoch = 111 Count = 520 Current_Loss = 0.0166 Time = 1.16
+[2019-05-09 14:13:47] Epoch = 111 Count = 560 Current_Loss = 0.0239 Time = 1.17
+[2019-05-09 14:13:48] Epoch = 111 Count = 600 Current_Loss = 0.0128 Time = 1.17
+[2019-05-09 14:13:49] Epoch = 111 Count = 640 Current_Loss = 0.0121 Time = 1.16
+[2019-05-09 14:13:50] Epoch = 111 Count = 680 Current_Loss = 0.0145 Time = 1.19
+[2019-05-09 14:13:51] Epoch = 111 Count = 720 Current_Loss = 0.0212 Time = 1.19
+[2019-05-09 14:13:52] Epoch = 111 Count = 760 Current_Loss = 0.0135 Time = 1.16
+[2019-05-09 14:13:54] Epoch = 111 Count = 800 Current_Loss = 0.0268 Time = 1.16
+[2019-05-09 14:13:55] Epoch = 111 Count = 840 Current_Loss = 0.0184 Time = 1.19
+[2019-05-09 14:13:56] Epoch = 111 Count = 880 Current_Loss = 0.0153 Time = 1.17
+[2019-05-09 14:13:57] Epoch = 111 Count = 920 Current_Loss = 0.0172 Time = 1.17
+[2019-05-09 14:13:58] Epoch = 111 Count = 960 Current_Loss = 0.0196 Time = 1.17
+[2019-05-09 14:14:00] Epoch = 111 Count = 1000 Current_Loss = 0.0220 Time = 1.20
+[2019-05-09 14:14:01] Epoch = 111 Count = 1040 Current_Loss = 0.0140 Time = 1.19
+[2019-05-09 14:14:02] Epoch = 111 Count = 1080 Current_Loss = 0.0149 Time = 1.19
+[2019-05-09 14:14:03] Epoch = 111 Count = 1120 Current_Loss = 0.0211 Time = 1.18
+[2019-05-09 14:14:04] Epoch = 111 Count = 1160 Current_Loss = 0.0139 Time = 1.16
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0111 = 0.988086
+Average per class validation accuracies for epoch # 0111:
+Background = 0.994830
+RainCloud = 0.847298
+Validation precision =  0.9887059418534124
+Validation recall =  0.9880857195172991
+Validation F1 score =  0.9880410444854961
+Validation IoU score =  0.8405603307273846
+[2019-05-09 14:14:21] Remaining training time = 0 hours 6 minutes 43 seconds
+
+[2019-05-09 14:14:22] Epoch = 112 Count = 40 Current_Loss = 0.0139 Time = 1.20
+[2019-05-09 14:14:23] Epoch = 112 Count = 80 Current_Loss = 0.0165 Time = 1.18
+[2019-05-09 14:14:25] Epoch = 112 Count = 120 Current_Loss = 0.0145 Time = 1.19
+[2019-05-09 14:14:26] Epoch = 112 Count = 160 Current_Loss = 0.0199 Time = 1.19
+[2019-05-09 14:14:27] Epoch = 112 Count = 200 Current_Loss = 0.0127 Time = 1.18
+[2019-05-09 14:14:28] Epoch = 112 Count = 240 Current_Loss = 0.0237 Time = 1.18
+[2019-05-09 14:14:29] Epoch = 112 Count = 280 Current_Loss = 0.0175 Time = 1.18
+[2019-05-09 14:14:30] Epoch = 112 Count = 320 Current_Loss = 0.0152 Time = 1.19
+[2019-05-09 14:14:32] Epoch = 112 Count = 360 Current_Loss = 0.0184 Time = 1.19
+[2019-05-09 14:14:33] Epoch = 112 Count = 400 Current_Loss = 0.0197 Time = 1.21
+[2019-05-09 14:14:34] Epoch = 112 Count = 440 Current_Loss = 0.0190 Time = 1.20
+[2019-05-09 14:14:35] Epoch = 112 Count = 480 Current_Loss = 0.0175 Time = 1.19
+[2019-05-09 14:14:36] Epoch = 112 Count = 520 Current_Loss = 0.0122 Time = 1.20
+[2019-05-09 14:14:38] Epoch = 112 Count = 560 Current_Loss = 0.0091 Time = 1.19
+[2019-05-09 14:14:39] Epoch = 112 Count = 600 Current_Loss = 0.0195 Time = 1.19
+[2019-05-09 14:14:40] Epoch = 112 Count = 640 Current_Loss = 0.0131 Time = 1.20
+[2019-05-09 14:14:41] Epoch = 112 Count = 680 Current_Loss = 0.0141 Time = 1.19
+[2019-05-09 14:14:42] Epoch = 112 Count = 720 Current_Loss = 0.0197 Time = 1.18
+[2019-05-09 14:14:44] Epoch = 112 Count = 760 Current_Loss = 0.0127 Time = 1.15
+[2019-05-09 14:14:45] Epoch = 112 Count = 800 Current_Loss = 0.0163 Time = 1.18
+[2019-05-09 14:14:46] Epoch = 112 Count = 840 Current_Loss = 0.0218 Time = 1.18
+[2019-05-09 14:14:47] Epoch = 112 Count = 880 Current_Loss = 0.0269 Time = 1.16
+[2019-05-09 14:14:48] Epoch = 112 Count = 920 Current_Loss = 0.0132 Time = 1.17
+[2019-05-09 14:14:49] Epoch = 112 Count = 960 Current_Loss = 0.0321 Time = 1.17
+[2019-05-09 14:14:51] Epoch = 112 Count = 1000 Current_Loss = 0.0205 Time = 1.16
+[2019-05-09 14:14:52] Epoch = 112 Count = 1040 Current_Loss = 0.0104 Time = 1.22
+[2019-05-09 14:14:53] Epoch = 112 Count = 1080 Current_Loss = 0.0176 Time = 1.17
+[2019-05-09 14:14:54] Epoch = 112 Count = 1120 Current_Loss = 0.0121 Time = 1.15
+[2019-05-09 14:14:55] Epoch = 112 Count = 1160 Current_Loss = 0.0175 Time = 1.18
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0112 = 0.988418
+Average per class validation accuracies for epoch # 0112:
+Background = 0.995406
+RainCloud = 0.839116
+Validation precision =  0.9891241048703401
+Validation recall =  0.9884181431361607
+Validation F1 score =  0.988476022629246
+Validation IoU score =  0.8440136296367595
+[2019-05-09 14:15:11] Remaining training time = 0 hours 5 minutes 52 seconds
+
+[2019-05-09 14:15:13] Epoch = 113 Count = 40 Current_Loss = 0.0176 Time = 1.17
+[2019-05-09 14:15:14] Epoch = 113 Count = 80 Current_Loss = 0.0194 Time = 1.15
+[2019-05-09 14:15:15] Epoch = 113 Count = 120 Current_Loss = 0.0181 Time = 1.15
+[2019-05-09 14:15:16] Epoch = 113 Count = 160 Current_Loss = 0.0152 Time = 1.15
+[2019-05-09 14:15:17] Epoch = 113 Count = 200 Current_Loss = 0.0208 Time = 1.16
+[2019-05-09 14:15:18] Epoch = 113 Count = 240 Current_Loss = 0.0193 Time = 1.15
+[2019-05-09 14:15:20] Epoch = 113 Count = 280 Current_Loss = 0.0173 Time = 1.15
+[2019-05-09 14:15:21] Epoch = 113 Count = 320 Current_Loss = 0.0146 Time = 1.15
+[2019-05-09 14:15:22] Epoch = 113 Count = 360 Current_Loss = 0.0181 Time = 1.15
+[2019-05-09 14:15:23] Epoch = 113 Count = 400 Current_Loss = 0.0198 Time = 1.16
+[2019-05-09 14:15:24] Epoch = 113 Count = 440 Current_Loss = 0.0175 Time = 1.15
+[2019-05-09 14:15:25] Epoch = 113 Count = 480 Current_Loss = 0.0160 Time = 1.17
+[2019-05-09 14:15:26] Epoch = 113 Count = 520 Current_Loss = 0.0162 Time = 1.15
+[2019-05-09 14:15:28] Epoch = 113 Count = 560 Current_Loss = 0.0120 Time = 1.15
+[2019-05-09 14:15:29] Epoch = 113 Count = 600 Current_Loss = 0.0192 Time = 1.15
+[2019-05-09 14:15:30] Epoch = 113 Count = 640 Current_Loss = 0.0226 Time = 1.17
+[2019-05-09 14:15:31] Epoch = 113 Count = 680 Current_Loss = 0.0211 Time = 1.15
+[2019-05-09 14:15:32] Epoch = 113 Count = 720 Current_Loss = 0.0164 Time = 1.15
+[2019-05-09 14:15:33] Epoch = 113 Count = 760 Current_Loss = 0.0112 Time = 1.15
+[2019-05-09 14:15:35] Epoch = 113 Count = 800 Current_Loss = 0.0182 Time = 1.16
+[2019-05-09 14:15:36] Epoch = 113 Count = 840 Current_Loss = 0.0127 Time = 1.16
+[2019-05-09 14:15:37] Epoch = 113 Count = 880 Current_Loss = 0.0130 Time = 1.16
+[2019-05-09 14:15:38] Epoch = 113 Count = 920 Current_Loss = 0.0175 Time = 1.21
+[2019-05-09 14:15:39] Epoch = 113 Count = 960 Current_Loss = 0.0280 Time = 1.20
+[2019-05-09 14:15:40] Epoch = 113 Count = 1000 Current_Loss = 0.0141 Time = 1.18
+[2019-05-09 14:15:42] Epoch = 113 Count = 1040 Current_Loss = 0.0218 Time = 1.19
+[2019-05-09 14:15:43] Epoch = 113 Count = 1080 Current_Loss = 0.0175 Time = 1.18
+[2019-05-09 14:15:44] Epoch = 113 Count = 1120 Current_Loss = 0.0115 Time = 1.17
+[2019-05-09 14:15:45] Epoch = 113 Count = 1160 Current_Loss = 0.0138 Time = 1.17
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0113 = 0.987689
+Average per class validation accuracies for epoch # 0113:
+Background = 0.993492
+RainCloud = 0.874800
+Validation precision =  0.9880278356017848
+Validation recall =  0.9876889910016741
+Validation F1 score =  0.9873834625596137
+Validation IoU score =  0.8369847957814647
+[2019-05-09 14:16:02] Remaining training time = 0 hours 5 minutes 1 seconds
+
+[2019-05-09 14:16:03] Epoch = 114 Count = 40 Current_Loss = 0.0137 Time = 1.23
+[2019-05-09 14:16:05] Epoch = 114 Count = 80 Current_Loss = 0.0140 Time = 1.21
+[2019-05-09 14:16:06] Epoch = 114 Count = 120 Current_Loss = 0.0165 Time = 1.22
+[2019-05-09 14:16:07] Epoch = 114 Count = 160 Current_Loss = 0.0183 Time = 1.15
+[2019-05-09 14:16:08] Epoch = 114 Count = 200 Current_Loss = 0.0151 Time = 1.15
+[2019-05-09 14:16:09] Epoch = 114 Count = 240 Current_Loss = 0.0168 Time = 1.17
+[2019-05-09 14:16:10] Epoch = 114 Count = 280 Current_Loss = 0.0198 Time = 1.15
+[2019-05-09 14:16:12] Epoch = 114 Count = 320 Current_Loss = 0.0155 Time = 1.16
+[2019-05-09 14:16:13] Epoch = 114 Count = 360 Current_Loss = 0.0211 Time = 1.15
+[2019-05-09 14:16:14] Epoch = 114 Count = 400 Current_Loss = 0.0192 Time = 1.17
+[2019-05-09 14:16:15] Epoch = 114 Count = 440 Current_Loss = 0.0123 Time = 1.19
+[2019-05-09 14:16:16] Epoch = 114 Count = 480 Current_Loss = 0.0155 Time = 1.21
+[2019-05-09 14:16:17] Epoch = 114 Count = 520 Current_Loss = 0.0205 Time = 1.22
+[2019-05-09 14:16:19] Epoch = 114 Count = 560 Current_Loss = 0.0164 Time = 1.21
+[2019-05-09 14:16:20] Epoch = 114 Count = 600 Current_Loss = 0.0188 Time = 1.25
+[2019-05-09 14:16:21] Epoch = 114 Count = 640 Current_Loss = 0.0216 Time = 1.21
+[2019-05-09 14:16:22] Epoch = 114 Count = 680 Current_Loss = 0.0227 Time = 1.23
+[2019-05-09 14:16:24] Epoch = 114 Count = 720 Current_Loss = 0.0153 Time = 1.25
+[2019-05-09 14:16:25] Epoch = 114 Count = 760 Current_Loss = 0.0196 Time = 1.21
+[2019-05-09 14:16:26] Epoch = 114 Count = 800 Current_Loss = 0.0204 Time = 1.21
+[2019-05-09 14:16:27] Epoch = 114 Count = 840 Current_Loss = 0.0229 Time = 1.20
+[2019-05-09 14:16:28] Epoch = 114 Count = 880 Current_Loss = 0.0123 Time = 1.16
+[2019-05-09 14:16:30] Epoch = 114 Count = 920 Current_Loss = 0.0138 Time = 1.16
+[2019-05-09 14:16:31] Epoch = 114 Count = 960 Current_Loss = 0.0158 Time = 1.21
+[2019-05-09 14:16:32] Epoch = 114 Count = 1000 Current_Loss = 0.0202 Time = 1.20
+[2019-05-09 14:16:33] Epoch = 114 Count = 1040 Current_Loss = 0.0170 Time = 1.21
+[2019-05-09 14:16:34] Epoch = 114 Count = 1080 Current_Loss = 0.0157 Time = 1.21
+[2019-05-09 14:16:36] Epoch = 114 Count = 1120 Current_Loss = 0.0154 Time = 1.17
+[2019-05-09 14:16:37] Epoch = 114 Count = 1160 Current_Loss = 0.0186 Time = 1.17
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0114 = 0.987714
+Average per class validation accuracies for epoch # 0114:
+Background = 0.994926
+RainCloud = 0.840994
+Validation precision =  0.9885106696433852
+Validation recall =  0.9877141680036272
+Validation F1 score =  0.987708979046721
+Validation IoU score =  0.8374923817299547
+[2019-05-09 14:16:54] Remaining training time = 0 hours 4 minutes 21 seconds
+
+[2019-05-09 14:16:56] Epoch = 115 Count = 40 Current_Loss = 0.0147 Time = 1.25
+[2019-05-09 14:16:57] Epoch = 115 Count = 80 Current_Loss = 0.0165 Time = 1.23
+[2019-05-09 14:16:58] Epoch = 115 Count = 120 Current_Loss = 0.0163 Time = 1.24
+[2019-05-09 14:17:00] Epoch = 115 Count = 160 Current_Loss = 0.0110 Time = 1.22
+[2019-05-09 14:17:01] Epoch = 115 Count = 200 Current_Loss = 0.0112 Time = 1.24
+[2019-05-09 14:17:02] Epoch = 115 Count = 240 Current_Loss = 0.0166 Time = 1.18
+[2019-05-09 14:17:03] Epoch = 115 Count = 280 Current_Loss = 0.0127 Time = 1.15
+[2019-05-09 14:17:04] Epoch = 115 Count = 320 Current_Loss = 0.0188 Time = 1.15
+[2019-05-09 14:17:05] Epoch = 115 Count = 360 Current_Loss = 0.0194 Time = 1.15
+[2019-05-09 14:17:07] Epoch = 115 Count = 400 Current_Loss = 0.0173 Time = 1.15
+[2019-05-09 14:17:08] Epoch = 115 Count = 440 Current_Loss = 0.0238 Time = 1.16
+[2019-05-09 14:17:09] Epoch = 115 Count = 480 Current_Loss = 0.0177 Time = 1.16
+[2019-05-09 14:17:10] Epoch = 115 Count = 520 Current_Loss = 0.0134 Time = 1.15
+[2019-05-09 14:17:11] Epoch = 115 Count = 560 Current_Loss = 0.0151 Time = 1.16
+[2019-05-09 14:17:12] Epoch = 115 Count = 600 Current_Loss = 0.0142 Time = 1.16
+[2019-05-09 14:17:14] Epoch = 115 Count = 640 Current_Loss = 0.0222 Time = 1.16
+[2019-05-09 14:17:15] Epoch = 115 Count = 680 Current_Loss = 0.0142 Time = 1.19
+[2019-05-09 14:17:16] Epoch = 115 Count = 720 Current_Loss = 0.0198 Time = 1.18
+[2019-05-09 14:17:17] Epoch = 115 Count = 760 Current_Loss = 0.0155 Time = 1.21
+[2019-05-09 14:17:18] Epoch = 115 Count = 800 Current_Loss = 0.0143 Time = 1.18
+[2019-05-09 14:17:19] Epoch = 115 Count = 840 Current_Loss = 0.0175 Time = 1.15
+[2019-05-09 14:17:21] Epoch = 115 Count = 880 Current_Loss = 0.0125 Time = 1.16
+[2019-05-09 14:17:22] Epoch = 115 Count = 920 Current_Loss = 0.0144 Time = 1.16
+[2019-05-09 14:17:23] Epoch = 115 Count = 960 Current_Loss = 0.0135 Time = 1.17
+[2019-05-09 14:17:24] Epoch = 115 Count = 1000 Current_Loss = 0.0169 Time = 1.17
+[2019-05-09 14:17:25] Epoch = 115 Count = 1040 Current_Loss = 0.0121 Time = 1.15
+[2019-05-09 14:17:26] Epoch = 115 Count = 1080 Current_Loss = 0.0253 Time = 1.18
+[2019-05-09 14:17:28] Epoch = 115 Count = 1120 Current_Loss = 0.0125 Time = 1.17
+[2019-05-09 14:17:29] Epoch = 115 Count = 1160 Current_Loss = 0.0142 Time = 1.16
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0115 = 0.988502
+Average per class validation accuracies for epoch # 0115:
+Background = 0.995451
+RainCloud = 0.841271
+Validation precision =  0.9892408334895594
+Validation recall =  0.9885015215192522
+Validation F1 score =  0.9885681125862639
+Validation IoU score =  0.845582414903365
+[2019-05-09 14:17:45] Remaining training time = 0 hours 3 minutes 20 seconds
+
+[2019-05-09 14:17:46] Epoch = 116 Count = 40 Current_Loss = 0.0174 Time = 1.20
+[2019-05-09 14:17:47] Epoch = 116 Count = 80 Current_Loss = 0.0200 Time = 1.16
+[2019-05-09 14:17:49] Epoch = 116 Count = 120 Current_Loss = 0.0236 Time = 1.17
+[2019-05-09 14:17:50] Epoch = 116 Count = 160 Current_Loss = 0.0129 Time = 1.16
+[2019-05-09 14:17:51] Epoch = 116 Count = 200 Current_Loss = 0.0132 Time = 1.16
+[2019-05-09 14:17:52] Epoch = 116 Count = 240 Current_Loss = 0.0163 Time = 1.16
+[2019-05-09 14:17:53] Epoch = 116 Count = 280 Current_Loss = 0.0096 Time = 1.16
+[2019-05-09 14:17:54] Epoch = 116 Count = 320 Current_Loss = 0.0150 Time = 1.16
+[2019-05-09 14:17:56] Epoch = 116 Count = 360 Current_Loss = 0.0192 Time = 1.19
+[2019-05-09 14:17:57] Epoch = 116 Count = 400 Current_Loss = 0.0161 Time = 1.19
+[2019-05-09 14:17:58] Epoch = 116 Count = 440 Current_Loss = 0.0155 Time = 1.22
+[2019-05-09 14:17:59] Epoch = 116 Count = 480 Current_Loss = 0.0130 Time = 1.22
+[2019-05-09 14:18:00] Epoch = 116 Count = 520 Current_Loss = 0.0214 Time = 1.16
+[2019-05-09 14:18:02] Epoch = 116 Count = 560 Current_Loss = 0.0147 Time = 1.16
+[2019-05-09 14:18:03] Epoch = 116 Count = 600 Current_Loss = 0.0181 Time = 1.15
+[2019-05-09 14:18:04] Epoch = 116 Count = 640 Current_Loss = 0.0181 Time = 1.17
+[2019-05-09 14:18:05] Epoch = 116 Count = 680 Current_Loss = 0.0113 Time = 1.15
+[2019-05-09 14:18:06] Epoch = 116 Count = 720 Current_Loss = 0.0154 Time = 1.15
+[2019-05-09 14:18:07] Epoch = 116 Count = 760 Current_Loss = 0.0197 Time = 1.15
+[2019-05-09 14:18:08] Epoch = 116 Count = 800 Current_Loss = 0.0182 Time = 1.15
+[2019-05-09 14:18:10] Epoch = 116 Count = 840 Current_Loss = 0.0132 Time = 1.16
+[2019-05-09 14:18:11] Epoch = 116 Count = 880 Current_Loss = 0.0169 Time = 1.18
+[2019-05-09 14:18:12] Epoch = 116 Count = 920 Current_Loss = 0.0180 Time = 1.19
+[2019-05-09 14:18:13] Epoch = 116 Count = 960 Current_Loss = 0.0127 Time = 1.16
+[2019-05-09 14:18:14] Epoch = 116 Count = 1000 Current_Loss = 0.0187 Time = 1.17
+[2019-05-09 14:18:15] Epoch = 116 Count = 1040 Current_Loss = 0.0182 Time = 1.15
+[2019-05-09 14:18:17] Epoch = 116 Count = 1080 Current_Loss = 0.0185 Time = 1.16
+[2019-05-09 14:18:18] Epoch = 116 Count = 1120 Current_Loss = 0.0152 Time = 1.16
+[2019-05-09 14:18:19] Epoch = 116 Count = 1160 Current_Loss = 0.0160 Time = 1.16
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0116 = 0.988174
+Average per class validation accuracies for epoch # 0116:
+Background = 0.994672
+RainCloud = 0.857182
+Validation precision =  0.9887322778192417
+Validation recall =  0.9881741115025111
+Validation F1 score =  0.9880751821544501
+Validation IoU score =  0.8421520357604049
+[2019-05-09 14:18:35] Remaining training time = 0 hours 2 minutes 29 seconds
+
+[2019-05-09 14:18:36] Epoch = 117 Count = 40 Current_Loss = 0.0174 Time = 1.20
+[2019-05-09 14:18:38] Epoch = 117 Count = 80 Current_Loss = 0.0170 Time = 1.16
+[2019-05-09 14:18:39] Epoch = 117 Count = 120 Current_Loss = 0.0129 Time = 1.21
+[2019-05-09 14:18:40] Epoch = 117 Count = 160 Current_Loss = 0.0156 Time = 1.18
+[2019-05-09 14:18:41] Epoch = 117 Count = 200 Current_Loss = 0.0201 Time = 1.16
+[2019-05-09 14:18:42] Epoch = 117 Count = 240 Current_Loss = 0.0178 Time = 1.16
+[2019-05-09 14:18:44] Epoch = 117 Count = 280 Current_Loss = 0.0162 Time = 1.18
+[2019-05-09 14:18:45] Epoch = 117 Count = 320 Current_Loss = 0.0173 Time = 1.19
+[2019-05-09 14:18:46] Epoch = 117 Count = 360 Current_Loss = 0.0176 Time = 1.21
+[2019-05-09 14:18:47] Epoch = 117 Count = 400 Current_Loss = 0.0130 Time = 1.20
+[2019-05-09 14:18:48] Epoch = 117 Count = 440 Current_Loss = 0.0115 Time = 1.21
+[2019-05-09 14:18:50] Epoch = 117 Count = 480 Current_Loss = 0.0174 Time = 1.23
+[2019-05-09 14:18:51] Epoch = 117 Count = 520 Current_Loss = 0.0185 Time = 1.18
+[2019-05-09 14:18:52] Epoch = 117 Count = 560 Current_Loss = 0.0154 Time = 1.22
+[2019-05-09 14:18:53] Epoch = 117 Count = 600 Current_Loss = 0.0133 Time = 1.23
+[2019-05-09 14:18:54] Epoch = 117 Count = 640 Current_Loss = 0.0172 Time = 1.16
+[2019-05-09 14:18:56] Epoch = 117 Count = 680 Current_Loss = 0.0119 Time = 1.17
+[2019-05-09 14:18:57] Epoch = 117 Count = 720 Current_Loss = 0.0183 Time = 1.15
+[2019-05-09 14:18:58] Epoch = 117 Count = 760 Current_Loss = 0.0137 Time = 1.15
+[2019-05-09 14:18:59] Epoch = 117 Count = 800 Current_Loss = 0.0131 Time = 1.18
+[2019-05-09 14:19:00] Epoch = 117 Count = 840 Current_Loss = 0.0129 Time = 1.20
+[2019-05-09 14:19:01] Epoch = 117 Count = 880 Current_Loss = 0.0136 Time = 1.16
+[2019-05-09 14:19:03] Epoch = 117 Count = 920 Current_Loss = 0.0169 Time = 1.16
+[2019-05-09 14:19:04] Epoch = 117 Count = 960 Current_Loss = 0.0156 Time = 1.16
+[2019-05-09 14:19:05] Epoch = 117 Count = 1000 Current_Loss = 0.0228 Time = 1.16
+[2019-05-09 14:19:06] Epoch = 117 Count = 1040 Current_Loss = 0.0188 Time = 1.17
+[2019-05-09 14:19:07] Epoch = 117 Count = 1080 Current_Loss = 0.0209 Time = 1.16
+[2019-05-09 14:19:08] Epoch = 117 Count = 1120 Current_Loss = 0.0176 Time = 1.18
+[2019-05-09 14:19:10] Epoch = 117 Count = 1160 Current_Loss = 0.0144 Time = 1.16
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0117 = 0.988320
+Average per class validation accuracies for epoch # 0117:
+Background = 0.995962
+RainCloud = 0.824900
+Validation precision =  0.9893062328491031
+Validation recall =  0.9883195059640068
+Validation F1 score =  0.9884850558140094
+Validation IoU score =  0.8431862568861047
+[2019-05-09 14:19:26] Remaining training time = 0 hours 1 minutes 41 seconds
+
+[2019-05-09 14:19:27] Epoch = 118 Count = 40 Current_Loss = 0.0150 Time = 1.16
+[2019-05-09 14:19:28] Epoch = 118 Count = 80 Current_Loss = 0.0158 Time = 1.15
+[2019-05-09 14:19:29] Epoch = 118 Count = 120 Current_Loss = 0.0195 Time = 1.15
+[2019-05-09 14:19:31] Epoch = 118 Count = 160 Current_Loss = 0.0135 Time = 1.16
+[2019-05-09 14:19:32] Epoch = 118 Count = 200 Current_Loss = 0.0108 Time = 1.16
+[2019-05-09 14:19:33] Epoch = 118 Count = 240 Current_Loss = 0.0224 Time = 1.17
+[2019-05-09 14:19:34] Epoch = 118 Count = 280 Current_Loss = 0.0129 Time = 1.18
+[2019-05-09 14:19:35] Epoch = 118 Count = 320 Current_Loss = 0.0167 Time = 1.18
+[2019-05-09 14:19:37] Epoch = 118 Count = 360 Current_Loss = 0.0193 Time = 1.20
+[2019-05-09 14:19:38] Epoch = 118 Count = 400 Current_Loss = 0.0132 Time = 1.19
+[2019-05-09 14:19:39] Epoch = 118 Count = 440 Current_Loss = 0.0140 Time = 1.16
+[2019-05-09 14:19:40] Epoch = 118 Count = 480 Current_Loss = 0.0138 Time = 1.15
+[2019-05-09 14:19:41] Epoch = 118 Count = 520 Current_Loss = 0.0117 Time = 1.15
+[2019-05-09 14:19:42] Epoch = 118 Count = 560 Current_Loss = 0.0211 Time = 1.15
+[2019-05-09 14:19:44] Epoch = 118 Count = 600 Current_Loss = 0.0173 Time = 1.16
+[2019-05-09 14:19:45] Epoch = 118 Count = 640 Current_Loss = 0.0210 Time = 1.15
+[2019-05-09 14:19:46] Epoch = 118 Count = 680 Current_Loss = 0.0187 Time = 1.15
+[2019-05-09 14:19:47] Epoch = 118 Count = 720 Current_Loss = 0.0146 Time = 1.17
+[2019-05-09 14:19:48] Epoch = 118 Count = 760 Current_Loss = 0.0115 Time = 1.15
+[2019-05-09 14:19:49] Epoch = 118 Count = 800 Current_Loss = 0.0132 Time = 1.18
+[2019-05-09 14:19:50] Epoch = 118 Count = 840 Current_Loss = 0.0128 Time = 1.16
+[2019-05-09 14:19:52] Epoch = 118 Count = 880 Current_Loss = 0.0145 Time = 1.18
+[2019-05-09 14:19:53] Epoch = 118 Count = 920 Current_Loss = 0.0150 Time = 1.19
+[2019-05-09 14:19:54] Epoch = 118 Count = 960 Current_Loss = 0.0169 Time = 1.17
+[2019-05-09 14:19:55] Epoch = 118 Count = 1000 Current_Loss = 0.0145 Time = 1.16
+[2019-05-09 14:19:56] Epoch = 118 Count = 1040 Current_Loss = 0.0214 Time = 1.15
+[2019-05-09 14:19:57] Epoch = 118 Count = 1080 Current_Loss = 0.0136 Time = 1.15
+[2019-05-09 14:19:59] Epoch = 118 Count = 1120 Current_Loss = 0.0141 Time = 1.15
+[2019-05-09 14:20:00] Epoch = 118 Count = 1160 Current_Loss = 0.0134 Time = 1.15
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0118 = 0.988261
+Average per class validation accuracies for epoch # 0118:
+Background = 0.994965
+RainCloud = 0.851523
+Validation precision =  0.9889068037774866
+Validation recall =  0.988260759626116
+Validation F1 score =  0.9882321464774785
+Validation IoU score =  0.8437669738789799
+[2019-05-09 14:20:16] Remaining training time = 0 hours 0 minutes 49 seconds
+
+[2019-05-09 14:20:17] Epoch = 119 Count = 40 Current_Loss = 0.0126 Time = 1.16
+[2019-05-09 14:20:18] Epoch = 119 Count = 80 Current_Loss = 0.0236 Time = 1.15
+[2019-05-09 14:20:20] Epoch = 119 Count = 120 Current_Loss = 0.0201 Time = 1.15
+[2019-05-09 14:20:21] Epoch = 119 Count = 160 Current_Loss = 0.0171 Time = 1.15
+[2019-05-09 14:20:22] Epoch = 119 Count = 200 Current_Loss = 0.0214 Time = 1.15
+[2019-05-09 14:20:23] Epoch = 119 Count = 240 Current_Loss = 0.0129 Time = 1.15
+[2019-05-09 14:20:24] Epoch = 119 Count = 280 Current_Loss = 0.0178 Time = 1.15
+[2019-05-09 14:20:25] Epoch = 119 Count = 320 Current_Loss = 0.0139 Time = 1.15
+[2019-05-09 14:20:26] Epoch = 119 Count = 360 Current_Loss = 0.0159 Time = 1.15
+[2019-05-09 14:20:28] Epoch = 119 Count = 400 Current_Loss = 0.0213 Time = 1.16
+[2019-05-09 14:20:29] Epoch = 119 Count = 440 Current_Loss = 0.0142 Time = 1.18
+[2019-05-09 14:20:30] Epoch = 119 Count = 480 Current_Loss = 0.0186 Time = 1.16
+[2019-05-09 14:20:31] Epoch = 119 Count = 520 Current_Loss = 0.0205 Time = 1.17
+[2019-05-09 14:20:32] Epoch = 119 Count = 560 Current_Loss = 0.0122 Time = 1.16
+[2019-05-09 14:20:33] Epoch = 119 Count = 600 Current_Loss = 0.0122 Time = 1.18
+[2019-05-09 14:20:35] Epoch = 119 Count = 640 Current_Loss = 0.0173 Time = 1.17
+[2019-05-09 14:20:36] Epoch = 119 Count = 680 Current_Loss = 0.0137 Time = 1.20
+[2019-05-09 14:20:37] Epoch = 119 Count = 720 Current_Loss = 0.0126 Time = 1.18
+[2019-05-09 14:20:38] Epoch = 119 Count = 760 Current_Loss = 0.0108 Time = 1.22
+[2019-05-09 14:20:39] Epoch = 119 Count = 800 Current_Loss = 0.0128 Time = 1.22
+[2019-05-09 14:20:41] Epoch = 119 Count = 840 Current_Loss = 0.0246 Time = 1.16
+[2019-05-09 14:20:42] Epoch = 119 Count = 880 Current_Loss = 0.0199 Time = 1.16
+[2019-05-09 14:20:43] Epoch = 119 Count = 920 Current_Loss = 0.0193 Time = 1.15
+[2019-05-09 14:20:44] Epoch = 119 Count = 960 Current_Loss = 0.0120 Time = 1.15
+[2019-05-09 14:20:45] Epoch = 119 Count = 1000 Current_Loss = 0.0213 Time = 1.16
+[2019-05-09 14:20:46] Epoch = 119 Count = 1040 Current_Loss = 0.0225 Time = 1.15
+[2019-05-09 14:20:47] Epoch = 119 Count = 1080 Current_Loss = 0.0189 Time = 1.15
+[2019-05-09 14:20:49] Epoch = 119 Count = 1120 Current_Loss = 0.0231 Time = 1.16
+[2019-05-09 14:20:50] Epoch = 119 Count = 1160 Current_Loss = 0.0188 Time = 1.19
+Saving latest checkpoint
+Performing validation
+
+Average validation accuracy for epoch # 0119 = 0.988311
+Average per class validation accuracies for epoch # 0119:
+Background = 0.995183
+RainCloud = 0.845806
+Validation precision =  0.9890136029775064
+Validation recall =  0.9883108956473214
+Validation F1 score =  0.9883184154720327
+Validation IoU score =  0.8429288038319693
+[2019-05-09 14:21:06] Remaining training time : Training completed.
+
+
+Process finished with exit code 0
+
+
+test.py
+
+Loading model checkpoint weights ...
+Loading the data ...
+Running test image 131 / 131Average test accuracy =  0.9866362127638956
+Average per class test accuracies = 
+
+Background = 0.993963
+RainCloud = 0.858767
+Average precision =  0.9875527890537849
+Average recall =  0.9866362127638956
+Average F1 score =  0.9865478812520009
+Average mean IoU score =  0.8365086816057514
+Average run time =  0.02834431451695566
+
+Process finished with exit code 0
+
+
